@@ -5,7 +5,9 @@ function TitleOne() {
   return (
     <Container fluid>
       <h1 className="text-white text-center fst-italic fluid py-1">
+      <strong>
         GASTRONOMIA EN YOPAL
+        </strong>
       </h1>
 
       <img
@@ -23,7 +25,9 @@ function TitleOne() {
       />
 
       <h1 className="text-white text-center fst-italic py-4 bg-">
+      <strong>
         REALIZA TUS PEDIDOS A DOMICILIO O VISITANOS EN NUESTRAS INSTALACIONES
+        </strong>
       </h1>
     </Container>
   );

@@ -5,6 +5,8 @@ import Cards2 from "./Cards2";
 
 import { Container } from "reactstrap";
 import Search from "./Search";
+import TitleTwho from "./TitleTwo";
+import Slider from "./Slider"
 
 function Home() {
   return (
@@ -12,8 +14,12 @@ function Home() {
       
         <TitleOne />
         <Search/>
+        <Slider/>
+        <TitleTwho/>
         <Cards />
-        <Cards2/>
+   
+     
+       
       
     </Container>
   );

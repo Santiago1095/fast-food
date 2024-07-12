@@ -1,98 +1,151 @@
-import React, { useState } from "react";
 import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption,
+  Row,
   Container,
+  Col,
+  CardBody,
+  CardTitle,
+  CardText,
+  Card,
+  CardSubtitle,
+ 
+  Button,
+  CardGroup,
 } from "reactstrap";
+import imgElBuenGusto from "../assets/imgElBuenGusto.jpeg"
+import imgYopalExpress from "../assets/imgYopalExpress.jpg"
+import imgLaLlamarada from "../assets/imgLaLlamarada.jpg"
+import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 
-const items = [
-  {
-    src: "https://picsum.photos/id/123/1200/400",
-    altText: "Slide 1",
-    caption: "Slide 1",
-    key: 1,
-  },
-  {
-    src: "https://picsum.photos/id/456/1200/400",
-    altText: "Slide 2",
-    caption: "Slide 2",
-    key: 2,
-  },
-  {
-    src: "https://picsum.photos/id/678/1200/400",
-    altText: "Slide 3",
-    caption: "Slide 3",
-    key: 3,
-  },
-];
-
-function Cards(args) {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  };
-
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  };
-
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  };
-
-  const slides = items.map((item) => {
-    return (
-      <CarouselItem
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-        key={item.src}
-      >
-        <img src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
-      </CarouselItem>
-    );
-  });
-
+export default function Cards2() {
   return (
-    <Container fluid className="py-5 text-center">
-    <Carousel
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}
-      {...args}
-    >
-      <CarouselIndicators
-        items={items}
-        activeIndex={activeIndex}
-        onClickHandler={goToIndex}
-      />
-      {slides}
-      <CarouselControl
-        direction="prev"
-        directionText="Previous"
-        onClickHandler={previous}
-      />
-      <CarouselControl
-        direction="next"
-        directionText="Next"
-        onClickHandler={next}
-      />
-    </Carousel>
-    </Container>
+    <div>
+      <Container fluid className="py-3 d-flex justify-content-around">
+        <CardGroup>
+          <Row xs="auto">
+            <Col>
+              <Card
+                style={{
+                  width: "18rem",
+                }}
+                className="card h-100"
+              >
+                <CardBody>
+                  <CardTitle tag="h5">El Buen Gusto</CardTitle>
+                  <CardSubtitle className="mb-2 text-muted" tag="h6">
+                    Comida Rapida
+                  </CardSubtitle>
+                </CardBody>
+                <img
+                  alt="Card cap"
+                  src={imgElBuenGusto}
+                  width=""
+                />
+                <CardBody>
+                  <CardText className="h-60">
+                    Nos especialisamos en toda clase de comidas rapidas, bien
+                    prepadara y con los mejores ingredientes seleccionados
+                  </CardText>
+                  <Button color="primary" block="bool">
+                    Mas info
+                  </Button>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col>
+              <Card
+                style={{
+                  width: "18rem",
+                }}
+                className="card h-100"
+              >
+                <CardBody>
+                  <CardTitle tag="h5">Arroz Chino Yopal Express</CardTitle>
+                  <CardSubtitle className="mb-2 text-muted" tag="h6">
+                    Comida Asiatica
+                  </CardSubtitle>
+                </CardBody>
+                <img
+                className="center"
+                  alt="Card cap"
+                  src={imgYopalExpress} 
+                  width=""
+                
+
+                />
+                <CardBody>
+                  <CardText className="h-60">
+                  Nos especialisamos en toda clase de comidas rapidas, bien
+                  prepadara y con los mejores ingredientes seleccionados 
+                  
+                  </CardText>
+                  <Button color="primary" block="bool">
+                    Mas info
+                  </Button>
+                </CardBody>
+              </Card>
+            </Col>
+
+            <Col>
+              <Card
+                style={{
+                  width: "18rem",
+                }}
+                className="card h-100"
+              >
+                <CardBody>
+                  <CardTitle tag="h5">La Llamarada</CardTitle>
+                  <CardSubtitle className="mb-2 text-muted" tag="h6">
+                    Comida Tradicional
+                  </CardSubtitle>
+                </CardBody>
+                <img
+                  alt="Card cap"
+                  src={imgLaLlamarada}
+                  width=""
+                />
+                <CardBody>
+                  <CardText>
+                    Nos especialisamos en toda clase de comidas rapidas, bien
+                    prepadara y con los mejores ingredientes seleccionados
+                  </CardText>
+                  <Button color="primary" block="bool">
+                    Mas info
+                  </Button>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col>
+              <Card
+                style={{
+                  width: "18rem",
+                }}
+                className="card h-100"
+              >
+                <CardBody>
+                  <CardTitle tag="h5">Tax Burguer</CardTitle>
+                  <CardSubtitle className="mb-2 text-muted" tag="h6">
+                    Comida Rapida
+                  </CardSubtitle>
+                </CardBody>
+                <img
+                  alt="Card cap"
+                  src={imgTazBurguer}
+                  width=""
+                />
+                <CardBody>
+                  <CardText>
+                    Nos especialisamos en toda clase de comidas rapidas, bien
+                    prepadara y con los mejores ingredientes seleccionados
+                  </CardText>
+                  <Button color="primary" block="bool">
+                    Mas info
+                  </Button>
+                </CardBody>
+              </Card>
+            </Col>
+          </Row>
+        </CardGroup>
+      </Container>
+    </div>
   );
 }
-
-export default Cards;
