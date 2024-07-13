@@ -12,7 +12,7 @@ export default function Premium(){
                 </div>
 
                 <div className="slide">
-                    <img alt="uno" src={imgYopalExpress}/>
+                    <img alt="uno" src={imgYopalExpress} className="rounded-circle py-4"/>
                 </div>
 
                 <div className="slide">

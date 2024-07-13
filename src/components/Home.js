@@ -16,7 +16,7 @@ function Home() {
       <Search />
       <TitleTwho />
       <Premium/>
-      <Slider />
+   
       <TitleThree />
       <Cards />
     </Container>
