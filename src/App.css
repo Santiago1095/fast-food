@@ -7,7 +7,7 @@
 }
 
 .slider {
-  width: 75vw;
+  width: 100vw;
   height: auto;
   margin: auto;
   overflow: hidden;
@@ -15,19 +15,23 @@
 
 .slider .slide-track{
   display: flex;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
-  width: calc(200px * 14);
+  animation: scroll 10s linear infinite;
+  -webkit-animation: scroll 20s linear infinite;
+  width: calc(380px * 14);
+  
 }
 
 .slider .slide {
-  width: 200px;
+  width: 380px;
 
 }
 
 .slide .slide img{
+  
   width: 100%;
 }
+
+.slide .slide img:hover {transform: scale(1.1);}
 
 @keyframes scroll{
   0% {
@@ -36,8 +40,8 @@
   }
 
   100% {
-    -webkit-transform: translateX(calc(-200px * 7));
-    transform: translateX(calc(-200px * 7));
+    -webkit-transform: translateX(calc(-380px * 7));
+    transform: translateX(calc(-400px * 7));
   }
 }
 

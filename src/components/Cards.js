@@ -13,6 +13,7 @@ import imgElBuenGusto from "../assets/imgElBuenGusto.jpeg";
 import imgYopalExpress from "../assets/imgYopalExpress.jpg";
 import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
+import imgRapiRoy from "../assets/imgRapiRoy.png"
 
 export default function Cards2() {
   return (
@@ -78,6 +79,69 @@ export default function Cards2() {
                 </CardSubtitle>
               </CardBody>
               <img alt="Card cap" src={imgLaLlamarada} width="100%" />
+              <CardBody>
+                <Button color="primary" block="bool">
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "18rem",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5">Tax Burguer</CardTitle>
+                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                  Comida Rapida
+                </CardSubtitle>
+              </CardBody>
+              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <CardBody>
+                <Button color="primary" block="bool">
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "18rem",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5">Rapi Roy</CardTitle>
+                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                  Comida Rapida
+                </CardSubtitle>
+              </CardBody>
+              <img alt="Card cap" src={imgRapiRoy} width="100%" />
+              <CardBody>
+                <Button color="primary" block="bool">
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "18rem",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5">Tax Burguer</CardTitle>
+                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                  Comida Rapida
+                </CardSubtitle>
+              </CardBody>
+              <img alt="Card cap" src={imgTazBurguer} width="100%" />
               <CardBody>
                 <Button color="primary" block="bool">
                   Mas info
