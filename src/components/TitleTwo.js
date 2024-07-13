@@ -1,9 +1,9 @@
 
 export default function TitleTwho() {
     return (
-        <h1 className="text-dark text-center fst-italic  py-1">
+        <h1 className="text-dark text-center fst-italic py-2">
             <strong>
-                NO DEJES PARA MAÑANA, LO QUE PUEDES COMER HOY!!
+                LOS 10 MAS PEDIDOS!!
             </strong>
         </h1>
     )
