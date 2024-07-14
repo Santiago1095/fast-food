@@ -1,6 +1,6 @@
 .card {
   transition: all 0.4ms;
-} 
+}
 
 .card:hover {
   transform: scale(1.1);
@@ -13,35 +13,38 @@
   overflow: hidden;
 }
 
-.slider .slide-track{
+.slider .slide-track {
   display: flex;
-  animation: scroll 10s linear infinite;
-  -webkit-animation: scroll 20s linear infinite;
-  width: calc(380px * 14);
+  animation: scroll 40s linear infinite;
+  width: calc(380px * 20);
+
+}
+.slider:hover .slide-track{
+  animation-play-state: paused;
+  transform: rotate(1);
   
 }
+
 
 .slider .slide {
   width: 380px;
-
 }
 
-.slide .slide img{
-  
+.slide .slide img {
   width: 100%;
 }
 
-.slide .slide img:hover {transform: scale(1.1);}
+.slide .slide img:hover {
+  transform: scale(1.1);
 
-@keyframes scroll{
+}
+
+@keyframes scroll {
   0% {
-    -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 
   100% {
-    -webkit-transform: translateX(calc(-380px * 7));
-    transform: translateX(calc(-400px * 7));
+    transform: translateX(calc(-300px * 10));
   }
 }
-
