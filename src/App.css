@@ -21,7 +21,7 @@
 }
 .slider:hover .slide-track{
   animation-play-state: paused;
-  transform: rotate(1);
+  
   
 }
 
@@ -45,6 +45,6 @@
   }
 
   100% {
-    transform: translateX(calc(-300px * 10));
+    transform: translateX(calc(-380px * 10));
   }
 }
