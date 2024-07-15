@@ -4,7 +4,7 @@ import img1 from "./../assets/img1.jpeg";
 function TitleOne() {
   return (
     <Container fluid>
-      <h1 className="text-white text-center fst-italic fluid pt-5">
+      <h1 className="text-white text-center fluid pt-5 shadow-lg fw-bold">
       <strong>
         GASTRONOMIA EN YOPAL
         </strong>
@@ -24,7 +24,7 @@ function TitleOne() {
         }}
       />
 
-      <h1 className="text-white text-center fst-italic py-4 bg-">
+      <h1 className="text-white text-center py-4 shadow-lg fw-bold" >
       <strong>
         REALIZA TUS PEDIDOS A DOMICILIO O VISITANOS EN NUESTRAS INSTALACIONES
         </strong>

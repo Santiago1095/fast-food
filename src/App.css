@@ -1,8 +1,10 @@
 .card {
-  transition: all 0.4ms;
+  transition: all 35ms;
 }
 
 .card:hover {
+  
+  transform: rotate(360deg);
   transform: scale(1.1);
 }
 

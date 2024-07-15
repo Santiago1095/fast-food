@@ -13,11 +13,11 @@ import imgElBuenGusto from "../assets/imgElBuenGusto.jpeg";
 import imgYopalExpress from "../assets/imgYopalExpress.jpg";
 import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
-import imgRapiRoy from "../assets/imgRapiRoy.png"
+import imgRapiRoy from "../assets/imgRapiRoy.png";
 
 export default function Cards2() {
   return (
-    <Container className= "py-3  bg-primary-subtle rounded-4 fst-italic">
+    <Container className="py-1  bg-primary-subtle rounded-4">
       <CardGroup className="container-fluid">
         <Row>
           <Col className="py-3">
@@ -28,37 +28,21 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5" className="text-start ">
+                <CardTitle tag="h5" className="text-start fw-bold">
                   El Buen Gusto
                 </CardTitle>
-                <CardSubtitle className="mb-1 text-muted" tag="h6">
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgElBuenGusto} width="100%" />
+              <img
+                alt="Card cap"
+                src={imgElBuenGusto}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
-                  Mas info
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col className="py-3">
-            <Card
-              style={{
-                width: "18rem",
-              }}
-              className="card h-100"
-            >
-              <CardBody>
-                <CardTitle tag="h5">Arroz Chino Yopal Express</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Comida Asiatica
-                </CardSubtitle>
-              </CardBody>
-              <img alt="Card cap" src={imgYopalExpress} width="100%" />
-              <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
@@ -73,19 +57,56 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">La Llamarada</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  Arroz Chino Yopal Express
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
+                  Comida Asiatica
+                </CardSubtitle>
+              </CardBody>
+              <img
+                alt="imgYopalExpress"
+                src={imgYopalExpress}
+                width="100%"
+                className="rounded-5 p-2"
+              />
+              <CardBody>
+                <Button color="primary" block="bool" className="fw-bold">
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "18rem",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  La Llamarada
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Tradicional
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgLaLlamarada} width="100%" />
+              <img
+                alt="imgLaLlamarada"
+                src={imgLaLlamarada}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -94,19 +115,28 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Tax Burguer</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                Tax Burguer
+
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <img
+                alt="imgTazBurguer"
+                src={imgTazBurguer}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -115,19 +145,28 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Rapi Roy</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                Rapi Roy
+
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgRapiRoy} width="100%" />
+              <img
+                alt="imgRapiRoy"
+                src={imgRapiRoy}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -136,19 +175,27 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Tax Burguer</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  El Buen Gusto
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <img
+                alt="Card cap"
+                src={imgElBuenGusto}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -157,19 +204,27 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Tax Burguer</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  El Buen Gusto
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <img
+                alt="Card cap"
+                src={imgElBuenGusto}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -178,19 +233,27 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Tax Burguer</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  El Buen Gusto
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <img
+                alt="Card cap"
+                src={imgElBuenGusto}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -199,19 +262,27 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Tax Burguer</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  El Buen Gusto
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <img
+                alt="Card cap"
+                src={imgElBuenGusto}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -220,19 +291,27 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Tax Burguer</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  El Buen Gusto
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <img
+                alt="Card cap"
+                src={imgElBuenGusto}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -241,19 +320,27 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Tax Burguer</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  El Buen Gusto
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <img
+                alt="Card cap"
+                src={imgElBuenGusto}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+
           <Col className="py-3">
             <Card
               style={{
@@ -262,19 +349,27 @@ export default function Cards2() {
               className="card h-100"
             >
               <CardBody>
-                <CardTitle tag="h5">Tax Burguer</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  El Buen Gusto
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img alt="Card cap" src={imgTazBurguer} width="100%" />
+              <img
+                alt="Card cap"
+                src={imgElBuenGusto}
+                width="100%"
+                className="rounded-5 p-2"
+              />
               <CardBody>
-                <Button color="primary" block="bool">
+                <Button color="primary" block="bool" className="fw-bold">
                   Mas info
                 </Button>
               </CardBody>
             </Card>
           </Col>
+          
         </Row>
       </CardGroup>
     </Container>

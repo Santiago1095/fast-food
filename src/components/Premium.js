@@ -2,6 +2,8 @@ import imgElBuenGusto from "../assets/imgElBuenGusto.jpeg";
 import imgYopalExpress from "../assets/imgYopalExpress.jpg";
 import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
+import imgRapiRoy from "../assets/imgRapiRoy.png";
+
 import { Button, Container } from "reactstrap";
 
 export default function Premium() {
@@ -15,7 +17,7 @@ export default function Premium() {
               <h1 className="text-warning fw-bold rounded-5 ms-5 me-5 bg-dark">
                 1
               </h1>
-              <img alt="uno" src={imgYopalExpress} className="rounded-5" />
+              <img alt="uno" src={imgElBuenGusto} className="rounded-5" />
               <Button outline color="dark" className="fw-bold mt-2">
                 Mas info
               </Button>
@@ -39,7 +41,7 @@ export default function Premium() {
               <h1 className="text-warning fw-bold rounded-5 ms-5 me-5 bg-dark">
                 3
               </h1>
-              <img alt="uno" src={imgYopalExpress} className="rounded-5 " />
+              <img alt="uno" src={imgLaLlamarada} className="rounded-5 " />
               <Button outline color="dark" className="fw-bold mt-2 ">
                 Mas info
               </Button>
@@ -51,7 +53,7 @@ export default function Premium() {
               <h1 className="text-warning fw-bold rounded-5 ms-5 me-5 bg-dark">
                 4
               </h1>
-              <img alt="uno" src={imgYopalExpress} className="rounded-5 " />
+              <img alt="uno" src={imgTazBurguer} className="rounded-5 " />
               <Button outline color="dark" className="fw-bold mt-2 ">
                 Mas info
               </Button>
@@ -63,7 +65,7 @@ export default function Premium() {
               <h1 className="text-warning fw-bold rounded-5 ms-5 me-5 bg-dark">
                 5
               </h1>
-              <img alt="uno" src={imgYopalExpress} className="rounded-5 " />
+              <img alt="uno" src={imgLaLlamarada} className="rounded-5 " />
               <Button outline color="dark" className="fw-bold mt-2 ">
                 Mas info
               </Button>
@@ -75,7 +77,7 @@ export default function Premium() {
               <h1 className="text-warning fw-bold rounded-5 ms-5 me-5 bg-dark">
                 6
               </h1>
-              <img alt="uno" src={imgYopalExpress} className="rounded-5 " />
+              <img alt="uno" src={imgTazBurguer} className="rounded-5 " />
               <Button outline color="dark" className="fw-bold mt-2 ">
                 Mas info
               </Button>
@@ -87,7 +89,7 @@ export default function Premium() {
               <h1 className="text-warning fw-bold rounded-5 ms-5 me-5 bg-dark">
                 7
               </h1>
-              <img alt="uno" src={imgYopalExpress} className="rounded-5 " />
+              <img alt="uno" src={imgRapiRoy} className="rounded-5 " />
               <Button outline color="dark" className="fw-bold mt-2 ">
                 Mas info
               </Button>

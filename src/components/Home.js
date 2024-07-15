@@ -11,7 +11,7 @@ import Premium from "./Premium";
 
 function Home() {
   return (
-    <Container fluid>
+    <Container fluid> 
       <TitleOne />
       <Search />
       <TitleTwho />
