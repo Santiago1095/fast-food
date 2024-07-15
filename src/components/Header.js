@@ -11,7 +11,6 @@ import {
   Container,
 } from "reactstrap";
 
-
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -24,7 +23,7 @@ function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">RESTAURANTES</NavLink>
+              <NavLink href="/restaurants/">RESTAURANTES</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/menu">MENU</NavLink>
@@ -33,9 +32,6 @@ function Header() {
           <NavbarText>Ver Carrito</NavbarText>
         </Collapse>
       </Navbar>
-     
-
-     
     </Container>
   );
 }

@@ -3,7 +3,7 @@ export default function Search() {
   return (
     <Container fluid className="text-center w-50">
       <Input
-        placeholder="Busca tu orden"
+        placeholder="Busca tu comida"
         className="bg-warning text-dark text-center"
       ></Input>
     </Container>

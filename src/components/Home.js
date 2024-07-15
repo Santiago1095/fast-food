@@ -8,15 +8,13 @@ import TitleTwho from "./TitleTwo";
 import Slider from "./Slider";
 import TitleThree from "./TitleThree";
 import Premium from "./Premium";
+import ElBuenGusto from "./Restaurants/ElBuenGusto";
 
 function Home() {
   return (
-    <Container fluid> 
-      <TitleOne />
-      <Search />
+    <Container fluid>
       <TitleTwho />
-      <Premium/>
-   
+      <Premium />
       <TitleThree />
       <Cards />
     </Container>
