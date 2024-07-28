@@ -18,7 +18,7 @@ export default function Premium() {
                 1
               </h1>
               <img alt="uno" src={imgElBuenGusto} className="rounded-5" />
-              <Button outline color="dark" className="fw-bold mt-2">
+              <Button href="/restaurants/el-buen-gusto" outline color="dark" className="fw-bold mt-2">
                 Mas info
               </Button>
             </div>
