@@ -173,6 +173,221 @@ export default function ElBuenGusto() {
                 </Row>
               </Card>
             </Col>
+            <Col xs="6 py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <img
+                      alt="Card cap"
+                      src={imgElBuenGusto}
+                      width="100%"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Hamburguesa Sencilla
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        papas a la francesa .
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        $12.000
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col xs="6 py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <img
+                      alt="Card cap"
+                      src={imgElBuenGusto}
+                      width="100%"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Hamburguesa Sencilla
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        papas a la francesa .
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        $12.000
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col xs="6 py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <img
+                      alt="Card cap"
+                      src={imgElBuenGusto}
+                      width="100%"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Hamburguesa Sencilla
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        papas a la francesa .
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        $12.000
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col xs="6 py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <img
+                      alt="Card cap"
+                      src={imgElBuenGusto}
+                      width="100%"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Hamburguesa Sencilla
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        papas a la francesa .
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        $12.000
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col xs="6 py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <img
+                      alt="Card cap"
+                      src={imgElBuenGusto}
+                      width="100%"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Hamburguesa Sencilla
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        papas a la francesa .
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        $12.000
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col xs="6 py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <img
+                      alt="Card cap"
+                      src={imgElBuenGusto}
+                      width="100%"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Hamburguesa Sencilla
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        papas a la francesa .
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        $12.000
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
 
           </Row>
         </CardGroup>
