@@ -11,7 +11,7 @@ export default function Footer() {
         <Link to="/nosotros">Acerca de nosotros</Link>
       </div>
 <div className="text-end">
-<Link to="/nosotros" >Quiero ser parte de la pagina</Link>
+<Link to="/nosotros" >Quiero que mi restaurante este en la pagina</Link>
 </div>
 
      
