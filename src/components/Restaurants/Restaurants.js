@@ -46,6 +46,7 @@ export default function Restaurants() {
               <CardBody>
                 <Button
                   href="/restaurants/el-buen-gusto"
+                  target="_blank" rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info

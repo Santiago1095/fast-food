@@ -34,15 +34,15 @@ export default function ElBuenGusto() {
             {" 321 367 9910 "}
           </a>
           o escribenos al
-          <a href="https://wa.link/olzdv2" className="">
+          <a href="https://wa.link/olzdv2" target="_blank" rel="noopener noreferrer" className="">
             {" Whatsapp "}
             
           </a>
         </h2>
 
         <Button
-      variant="outline-light"
-      className="border border-0 py-1"
+      variant="outline-dark"
+      className="border border-0 py-1 bg-white"
       style={{
         position: "fixed",
         bottom: 25,
