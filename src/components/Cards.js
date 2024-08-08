@@ -29,21 +29,27 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  El Buen Gusto
+                  Gurmet Y Sazon
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
+              <a  href="/restaurants/gurmet-y-sazon"
+                  target="_blank"
+                  rel="noopener noreferrer">
               <img
                 alt="Card cap"
                 src={imgElBuenGusto}
                 width="100%"
                 className="rounded-5 p-2"
               />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+               href="/restaurants/gurmet-y-sazon"
+               target="_blank"
+               rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info

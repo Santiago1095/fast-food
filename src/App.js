@@ -10,6 +10,7 @@ import Search from "./components/Search";
 import ElBuenGusto from "./components/Restaurants/ElBuenGusto";
 import Restaurants from "./components/Restaurants/Restaurants";
 import Footer from "./components/Footer";
+import GurmetYSazon from "./components/Restaurants/GurmetYSazon";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/restaurants" element={<Restaurants />} />
         <Route path="/restaurants/el-buen-gusto" element={<ElBuenGusto />} />
+        <Route path="/restaurants/gurmet-y-sazon" element={<GurmetYSazon />} />
       </Routes>
 
       <Footer />
