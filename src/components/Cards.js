@@ -14,6 +14,8 @@ import imgYopalExpress from "../assets/imgYopalExpress.jpg";
 import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
+import imgGurmetYSazon from "../assets/imgGurmetYSazon.jpeg"
+
 
 export default function Cards() {
   return (
@@ -40,9 +42,11 @@ export default function Cards() {
                   rel="noopener noreferrer">
               <img
                 alt="Card cap"
-                src={imgElBuenGusto}
+                src={imgGurmetYSazon}
                 width="100%"
-                className="rounded-5 p-2"
+                
+                className="rounded-5 p-2 "
+
               />
               </a>
               <CardBody>

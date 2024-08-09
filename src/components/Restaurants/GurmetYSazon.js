@@ -50,7 +50,7 @@ import {
           </h2>
   
           <h2 className="text-dark text-center fw-bold py-2">
-            ​​Horario de atención de lunes a domingo de 16:00 - 23:00
+            ​​Horario de atención de lunes a domingo de 16:00 - 23:00, delay 20 a 25min.
           </h2>
   
           <Button
