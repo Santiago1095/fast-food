@@ -8,6 +8,7 @@ import {
   CardSubtitle,
   Button,
   CardGroup,
+  CardImg,
 } from "reactstrap";
 import imgElBuenGusto from "../assets/imgElBuenGusto.jpeg";
 import imgYopalExpress from "../assets/imgYopalExpress.jpg";
@@ -20,7 +21,7 @@ export default function Cards() {
   return (
     <Container fluid className="py-1  bg-primary-subtle rounded-4">
       <CardGroup className="container-fluid">
-        <Row xs={1} sm={2} md={4}>
+        <Row xs={1} sm={2} md={3} lg={4} xl={5} xxl={10}>
           <Col className="py-3">
             <Card
               style={{
@@ -30,21 +31,32 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  Arroz Chino Yopal Express
+                  Gurmet Y Sazon
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Comida Asiatica
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="imgYopalExpress"
-                src={imgGurmetYSazon}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+
+              <a
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  href="/restaurants/restaurants/gurmet-y-sazon"
+                  alt="imgYopalExpress"
+                  src={imgGurmetYSazon}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
+
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/gurmet-y-sazon"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
@@ -68,15 +80,27 @@ export default function Cards() {
                   Comida Asiatica
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="imgYopalExpress"
-                src={imgYopalExpress}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+
+              <a
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  href="/restaurants/restaurants/gurmet-y-sazon"
+                  alt="imgYopalExpress"
+                  src={imgYopalExpress}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
+
+            
               <CardBody>
                 <Button
                   href="/restaurants/el-buen-gusto"
+                   target="_blank"
+                rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
