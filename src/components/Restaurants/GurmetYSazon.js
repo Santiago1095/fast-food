@@ -14,7 +14,6 @@ import {
 import imgElBuenGusto from "../../assets/imgElBuenGusto.jpeg";
 import imgGurmetYSazon from "../../assets/imgGurmetYSazon.jpeg";
 
-
 import { SiWhatsapp } from "react-icons/si";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -87,11 +86,11 @@ export default function GurmetYSazon() {
 
       <Container fluid className="py-1  bg-primary-subtle rounded-4">
         <CardGroup className="container-fluid">
-          <Row xs={1} sm={2} md={2} lg={3} xl={3} xxl={7}>
-            <Col  className="py-3">
+          <Row xs={2} sm={2} md={3} lg={3}>
+            <Col className="py-3">
               <Card>
                 <Row>
-                  <Col  md="6">
+                  <Col md="6">
                     <CardImg
                       alt="Card cap"
                       src={imgGurmetYSazon}
