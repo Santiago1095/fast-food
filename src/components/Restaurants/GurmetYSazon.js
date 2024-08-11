@@ -13,6 +13,7 @@ import {
 } from "reactstrap";
 import imgElBuenGusto from "../../assets/imgElBuenGusto.jpeg";
 import imgGurmetYSazon from "../../assets/imgGurmetYSazon.jpeg";
+import imgHamburguesa from "../../assets/imgHamburguesa.png"
 
 import { SiWhatsapp } from "react-icons/si";
 import { FaFacebook } from "react-icons/fa";
@@ -93,7 +94,7 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardImg
                       alt="Card cap"
-                      src={imgGurmetYSazon}
+                      src={imgHamburguesa}
                       width="auto"
                       className="rounded-5 p-2"
                     />
