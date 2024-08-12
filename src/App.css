@@ -1,9 +1,8 @@
 .card {
-  transition: all 35ms;
+  transition: all 500 ms;
 }
 
 .card:hover {
-  
   transform: rotate(360deg);
   transform: scale(1.1);
 }
@@ -17,19 +16,15 @@
 
 .slider .slide-track {
   display: flex;
-  animation: scroll 40s linear infinite;
-  width: calc(380px * 20);
-
+  animation: scroll 30s linear infinite;
+  width: calc(180px * 26);
 }
-.slider:hover .slide-track{
+.slider:hover .slide-track {
   animation-play-state: paused;
-  
-  
 }
-
 
 .slider .slide {
-  width: 380px;
+  width: 180px;
 }
 
 .slide .slide img {
@@ -37,8 +32,7 @@
 }
 
 .slide .slide img:hover {
-  transform: scale(1.1);
-
+  transform: scale(1.9);
 }
 
 @keyframes scroll {
@@ -47,6 +41,6 @@
   }
 
   100% {
-    transform: translateX(calc(-380px * 10));
+    transform: translateX(calc(-180px * 15));
   }
 }

@@ -1,11 +1,9 @@
-import imgElBuenGusto from "../assets/imgElBuenGusto.jpeg";
-import imgElBuenGusto2 from "../assets/imgElBuenGusto2.jpeg";
 import imgYopalExpress from "../assets/imgYopalExpress.jpg";
 import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
-import imgHamburguesa from "../assets/imgHamburguesa.png"
-
+import imgGurmetYSazon from "../assets/imgGurmetYSazon.jpeg";
+import imgNoDisponible from "../assets/imgNoDisponible.png"
 
 import { Button, Container, CardImg } from "reactstrap";
 
@@ -24,10 +22,11 @@ export default function Premium() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <CardImg 
+                <CardImg
+                  fluid
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgGurmetYSazon"
+                  src={imgGurmetYSazon}
                   width="auto"
                   className="rounded-5 p-2 img-thumbnail"
                 />
@@ -38,7 +37,7 @@ export default function Premium() {
                 rel="noopener noreferrer"
                 outline
                 color="dark"
-                className="fw-bold mt-2"
+                className="fw-bold mt-2 text-bg-danger text-cen"
               >
                 Mas info
               </Button>
@@ -58,7 +57,7 @@ export default function Premium() {
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  src={imgYopalExpress}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -81,8 +80,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgLaLlamarada"
+                  src={imgLaLlamarada}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -105,8 +104,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgTazBurguer"
+                  src={imgTazBurguer}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -129,8 +128,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgRapiRoy"
+                  src={imgRapiRoy}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -153,8 +152,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -177,12 +176,12 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
-              </a>  
+              </a>
               <Button outline color="dark" className="fw-bold mt-2 ">
                 Mas info
               </Button>
@@ -201,8 +200,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -225,8 +224,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -249,8 +248,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -273,8 +272,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgGurmetYSazon"
+                  src={imgGurmetYSazon}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -298,7 +297,7 @@ export default function Premium() {
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  src={imgYopalExpress}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -321,8 +320,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgLaLlamarada"
+                  src={imgLaLlamarada}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -345,8 +344,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgTazBurguer"
+                  src={imgTazBurguer}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -369,8 +368,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgRapiRoy"
+                  src={imgRapiRoy}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -393,8 +392,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -417,8 +416,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -441,8 +440,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -465,8 +464,8 @@ export default function Premium() {
               >
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
@@ -490,7 +489,7 @@ export default function Premium() {
                 <CardImg
                   href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgYopalExpress"
-                  src={imgHamburguesa}
+                  src={imgGurmetYSazon}
                   width="auto"
                   className="rounded-5 p-2"
                 />

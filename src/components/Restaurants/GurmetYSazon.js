@@ -11,9 +11,12 @@ import {
   CardText,
   CardImg,
 } from "reactstrap";
-import imgElBuenGusto from "../../assets/imgElBuenGusto.jpeg";
+
 import imgGurmetYSazon from "../../assets/imgGurmetYSazon.jpeg";
 import imgHamburguesa from "../../assets/imgHamburguesa.png"
+import imgHamburguesa2 from "../../assets/imgHamburguesa2.png"
+import imgHamburguesa3 from "../../assets/imgHamburguesa3.png"
+import imgHotDog from "../../assets/imgHotDog.png"
 
 import { SiWhatsapp } from "react-icons/si";
 import { FaFacebook } from "react-icons/fa";
@@ -130,7 +133,7 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardImg
                       alt="Card cap"
-                      src={imgGurmetYSazon}
+                      src={imgHamburguesa2}
                       width="auto"
                       height="auto"
                       className="rounded-5 p-2"
@@ -140,7 +143,7 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                        Hamburguesa Doble Carne
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
@@ -167,7 +170,7 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardImg
                       alt="Card cap"
-                      src={imgGurmetYSazon}
+                      src={imgHamburguesa3}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -176,13 +179,13 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                        Hamburguesa Mixta
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        Carne, pollo, lechuga, tomate, queso, salsas, acompañado con
                         papas a la francesa.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
@@ -203,7 +206,7 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardImg
                       alt="Card cap"
-                      src={imgGurmetYSazon}
+                      src={imgHotDog}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -212,13 +215,13 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                        Perro Caliente
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        Salchicha americana, queso, salsas, acompañado con
                         papas a la francesa.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
