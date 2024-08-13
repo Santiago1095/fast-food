@@ -12,7 +12,6 @@ import {
   CardImg,
 } from "reactstrap";
 
-import imgGurmetYSazon from "../../assets/imgGurmetYSazon.jpeg";
 import imgHamburguesa from "../../assets/imgHamburguesa.png";
 import imgHamburguesa2 from "../../assets/imgHamburguesa2.png";
 import imgHamburguesa3 from "../../assets/imgHamburguesa3.png";

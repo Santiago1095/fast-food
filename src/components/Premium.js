@@ -3,7 +3,7 @@ import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.jpeg";
-import imgNoDisponible from "../assets/imgNoDisponible.png"
+import imgNoDisponible from "../assets/imgNoDisponible.png";
 
 import { Button, Container, CardImg } from "reactstrap";
 
@@ -37,7 +37,7 @@ export default function Premium() {
                 rel="noopener noreferrer"
                 outline
                 color="dark"
-                className="fw-bold mt-2 text-bg-danger text-cen"
+                className="fw-bold mt-2"
               >
                 Mas info
               </Button>
@@ -62,7 +62,14 @@ export default function Premium() {
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
