@@ -13,10 +13,22 @@ import {
 } from "reactstrap";
 
 import imgGurmetYSazon from "../../assets/imgGurmetYSazon.jpeg";
-import imgHamburguesa from "../../assets/imgHamburguesa.png"
-import imgHamburguesa2 from "../../assets/imgHamburguesa2.png"
-import imgHamburguesa3 from "../../assets/imgHamburguesa3.png"
-import imgHotDog from "../../assets/imgHotDog.png"
+import imgHamburguesa from "../../assets/imgHamburguesa.png";
+import imgHamburguesa2 from "../../assets/imgHamburguesa2.png";
+import imgHamburguesa3 from "../../assets/imgHamburguesa3.png";
+import imgHotDog from "../../assets/imgHotDog.png";
+import imgHotDog2 from "../../assets/imgHotDog2.png";
+import imgPicada1 from "../../assets/imgPicada1.png";
+import imgNuggest from "../../assets/imgNuggest.png"
+import ImgGaseosaPersonal from "../../assets/ImgGaseosaPersonal.png";
+import imgGaseosa15LtPostobon from "../../assets/imgGaseosa15LtPostobon.png";
+import imgGaseosa3LtCoCua from "../../assets/imgGaseosa3LtCoCua.png";
+import imgAguaBotella from "../../assets/imgAguaBotella.png";
+import imgAguaGas from "../../assets/imgAguaGas.png";
+import imgJugos from "../../assets/imgJugos.jpeg";
+import imgJugoJarra from "../../assets/imgJugoJarra.png";
+import imgCitrica1 from "../../assets/imgCitrica1.png";
+import imgCitricaSoda from "../../assets/imgCitricaSoda.png";
 
 import { SiWhatsapp } from "react-icons/si";
 import { FaFacebook } from "react-icons/fa";
@@ -154,7 +166,7 @@ export default function GurmetYSazon() {
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $12.000 </strong>
+                        <strong> $16.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -185,12 +197,12 @@ export default function GurmetYSazon() {
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, pollo, lechuga, tomate, queso, salsas, acompañado con
-                        papas a la francesa.
+                        Carne, pollo, lechuga, tomate, queso, salsas, acompañado
+                        con papas a la francesa.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $12.000 </strong>
+                        <strong> $18.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -221,8 +233,8 @@ export default function GurmetYSazon() {
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Salchicha americana, queso, salsas, acompañado con
-                        papas a la francesa.
+                        Salchicha americana, queso, salsas, acompañado con papas
+                        a la francesa.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
@@ -241,8 +253,8 @@ export default function GurmetYSazon() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
-                      src={imgGurmetYSazon}
+                      alt="imgHotDog2"
+                      src={imgHotDog2}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -251,18 +263,18 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                        Perro Especial
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas, acompañado con
-                        papas a la francesa.
+                        Salchicha americana, tomate, queso, salsas,
+                        acompañado con papas a la francesa.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $12.000 </strong>
+                        <strong> $15.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -277,8 +289,8 @@ export default function GurmetYSazon() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
-                      src={imgGurmetYSazon}
+                      alt="imgPicada1"
+                      src={imgPicada1}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -287,18 +299,18 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                        Picadas Personal
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas, acompañado con
-                        papas a la francesa.
+                        Carne, pollo, platano, queso, chorizo, ensalada,
+                        costilla BBQ, papas.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $12.000 </strong>
+                        <strong> $17.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -313,8 +325,8 @@ export default function GurmetYSazon() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
-                      src={imgGurmetYSazon}
+                      alt="imgPicada1"
+                      src={imgPicada1}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -323,18 +335,18 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                        Picadas 2 Personas
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas, acompañado con
-                        papas a la francesa.
+                        Carne, pollo, platano, queso, chorizo, ensalada,
+                        costilla BBQ, papas.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $12.000 </strong>
+                        <strong> $28.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -349,8 +361,8 @@ export default function GurmetYSazon() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
-                      src={imgGurmetYSazon}
+                      alt="imgPicada1"
+                      src={imgPicada1}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -359,18 +371,18 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                        Picadas 3 Personas
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas, acompañado con
-                        papas a la francesa.
+                        Carne, pollo, platano, queso, chorizo, ensalada,
+                        costilla BBQ, papas.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $12.000 </strong>
+                        <strong> $38.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -385,8 +397,8 @@ export default function GurmetYSazon() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
-                      src={imgGurmetYSazon}
+                      alt="imgNuggest"
+                      src={imgNuggest}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -395,13 +407,13 @@ export default function GurmetYSazon() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                       Nuggest De Pollo
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas, acompañado con
+                        Nuggest de pollo, lechuga, tomate, queso, salsas, acompañado con
                         papas a la francesa.
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
@@ -417,6 +429,330 @@ export default function GurmetYSazon() {
             </Col>
           </Row>
         </CardGroup>
+
+        <CardTitle tag="h1" className="text-center fw-bold">
+          BEBIDAS
+        </CardTitle>
+        <CardGroup className="container-fluid">
+          <Row xs={2} sm={2} md={3} lg={3}>
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="Card cap"
+                      src={ImgGaseosaPersonal}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Gaseosa Personal
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Productos Postobon y Coca Cola
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $2.500 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgGaseosa15LtPostobon"
+                      src={imgGaseosa15LtPostobon}
+                      width="auto"
+                      height="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Gaseosa 1.5 Litros
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Productos Postobon y Coca Cola
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $7.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgGaseosa3LtCoCua"
+                      src={imgGaseosa3LtCoCua}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Gaseosa 3 Litros
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Productos Coca - Cola y Postobon
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgAguaBotella"
+                      src={imgAguaBotella}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Agua Sin Gas
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Prodcutos Postobon, Coca Cola y otros.
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $2.500 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgAguaGas"
+                      src={imgAguaGas}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Agua Con Gas
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Prodcutos Postobon, Coca Cola y otros.
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $2.500 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgJugos"
+                      src={imgJugos}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                      Baso de Jugos Naturales En Agua 
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Maracuya, lulo, piña, mora, fresas y demas. 
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $6.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgJugoJarra"
+                      src={imgJugoJarra}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                      Jarra de Jugos Naturales En Agua 
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Maracuya, lulo, piña, mora, fresas y demas. 
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $12.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgCitrica1"
+                      src={imgCitrica1}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Baso De Citrica En Agua
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                       Limon, hielo, agua y azucar.
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $6.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgCitricaSoda"
+                      src={imgCitricaSoda}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                      Baso De Citrica En Soda
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Limon, hielo, soda y azucar.
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $7.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+          </Row>
+        </CardGroup>
+
         <CardTitle tag="h1" className="text-center fw-bold">
           Estamos ubicados en
         </CardTitle>
