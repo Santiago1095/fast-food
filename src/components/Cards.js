@@ -10,12 +10,13 @@ import {
   CardGroup,
   CardImg,
 } from "reactstrap";
-import imgNoDisponible from"../assets/imgNoDisponible.png"
+import imgNoDisponible from "../assets/imgNoDisponible.png";
 import imgYopalExpress from "../assets/imgYopalExpress.jpg";
 import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.jpeg";
+import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png"
 
 export default function Cards() {
   return (
@@ -44,7 +45,6 @@ export default function Cards() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgYopalExpress"
                   src={imgGurmetYSazon}
                   width="auto"
@@ -95,12 +95,11 @@ export default function Cards() {
                 />
               </a>
 
-            
               <CardBody>
                 <Button
                   href="/restaurants/el-buen-gusto"
-                   target="_blank"
-                rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
@@ -214,21 +213,29 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
+                  La Perrada De Yei
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+              <a
+                href="/restaurants/la-perrada-de-yei"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgLaPerradaDeYei"
+                  src={imgLaPerradaDeYei}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/la-perrada-de-yei"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
@@ -524,7 +531,6 @@ export default function Cards() {
               </CardBody>
             </Card>
           </Col>
-        
         </Row>
       </CardGroup>
     </Container>
