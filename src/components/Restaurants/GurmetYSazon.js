@@ -38,7 +38,7 @@ export default function GurmetYSazon() {
     <>
       <div>
         <h1 className="text-dark text-center fw-bold py-2">
-          <strong>GURMET Y SAZON</strong>
+          <strong>GOURMET Y SAZON</strong>
         </h1>
         <h3 className="text-dark text-center fw-bold ">
           <strong>Carrera 8A Nº 13 - 52 Barrio Luis Maria Jimenez</strong>

@@ -3,6 +3,7 @@ import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.jpeg";
+import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png";
 import imgNoDisponible from "../assets/imgNoDisponible.png";
 
 import { Button, Container, CardImg } from "reactstrap";
@@ -18,13 +19,12 @@ export default function Premium() {
                 1
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/gourmet-y-sazon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
                   fluid
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgGurmetYSazon"
                   src={imgGurmetYSazon}
                   width="auto"
@@ -32,7 +32,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/gourmet-y-sazon"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -55,7 +55,6 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgYopalExpress"
                   src={imgYopalExpress}
                   width="auto"
@@ -86,14 +85,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgLaLlamarada"
                   src={imgLaLlamarada}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -110,14 +115,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgTazBurguer"
                   src={imgTazBurguer}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -134,14 +145,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgRapiRoy"
                   src={imgRapiRoy}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -153,19 +170,25 @@ export default function Premium() {
                 6
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/la-perrada-de-yei"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgLaPerradaDeYei"
+                  src={imgLaPerradaDeYei}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/la-perrada-de-yei"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -182,14 +205,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgNoDisponible"
                   src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -206,14 +235,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgNoDisponible"
                   src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -230,14 +265,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgNoDisponible"
                   src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -254,14 +295,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgNoDisponible"
                   src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -273,19 +320,25 @@ export default function Premium() {
                 1
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/gourmet-y-sazon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgGurmetYSazon"
                   src={imgGurmetYSazon}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gourmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -302,14 +355,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgYopalExpress"
                   src={imgYopalExpress}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -326,14 +385,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgLaLlamarada"
                   src={imgLaLlamarada}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -350,14 +415,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgTazBurguer"
                   src={imgTazBurguer}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -374,14 +445,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgRapiRoy"
                   src={imgRapiRoy}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -393,19 +470,25 @@ export default function Premium() {
                 6
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/la-perrada-de-yei"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgLaPerradaDeYei"
+                  src={imgLaPerradaDeYei}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/la-perrada-de-yei"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -422,14 +505,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgNoDisponible"
                   src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -446,14 +535,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgNoDisponible"
                   src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -470,14 +565,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgNoDisponible"
                   src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>
@@ -494,14 +595,20 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
                   alt="imgYopalExpress"
-                  src={imgGurmetYSazon}
+                  src={imgNoDisponible}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
-              <Button outline color="dark" className="fw-bold mt-2 ">
+              <Button
+                href="/restaurants/gurmet-y-sazon"
+                target="_blank"
+                rel="noopener noreferrer"
+                outline
+                color="dark"
+                className="fw-bold mt-2"
+              >
                 Mas info
               </Button>
             </div>

@@ -32,7 +32,7 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  Gurmet Y Sazon
+                  Gourmet Y Sazon
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida
@@ -40,7 +40,7 @@ export default function Cards() {
               </CardBody>
 
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/gourmet-y-sazon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,7 +54,7 @@ export default function Cards() {
 
               <CardBody>
                 <Button
-                  href="/restaurants/gurmet-y-sazon"
+                  href="/restaurants/gourmet-y-sazon"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
