@@ -16,7 +16,7 @@ import imgLaLlamarada from "../assets/imgLaLlamarada.jpg";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.jpeg";
-import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png"
+import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png";
 
 export default function Cards() {
   return (
@@ -82,12 +82,12 @@ export default function Cards() {
               </CardBody>
 
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/arroz-chino-express"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  href="/restaurants/restaurants/gurmet-y-sazon"
+                  href="/restaurants/restaurants/arroz-chino-expresss"
                   alt="imgYopalExpress"
                   src={imgYopalExpress}
                   width="auto"
@@ -97,7 +97,7 @@ export default function Cards() {
 
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/arroz-chino-express"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
@@ -123,16 +123,25 @@ export default function Cards() {
                   Comida Tradicional
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="imgLaLlamarada"
-                src={imgLaLlamarada}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+
+              
+              <a
+                href="/restaurants/la-llamarada"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgLaLlamarada"
+                  src={imgLaLlamarada}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/la-llamarada"
                   className="bg-primary  fw-bold d-grid "
+                  rel="noopener noreferrer"
                 >
                   Mas info
                 </Button>
@@ -155,16 +164,24 @@ export default function Cards() {
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="imgTazBurguer"
-                src={imgTazBurguer}
-                width="auto%"
-                className="rounded-5 p-2"
-              />
+              <a
+                href="/restaurants/taz-burguer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgTazBurguer"
+                  src={imgTazBurguer}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/taz-burguer"
                   className="bg-primary  fw-bold d-grid "
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Mas info
                 </Button>
@@ -187,16 +204,24 @@ export default function Cards() {
                   Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="imgRapiRoy"
-                src={imgRapiRoy}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+              <a
+                href="/restaurants/rapi-roy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgRapiRoy"
+                  src={imgRapiRoy}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/rapi-roy"
                   className="bg-primary  fw-bold d-grid "
+                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Mas info
                 </Button>

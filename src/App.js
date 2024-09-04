@@ -11,6 +11,10 @@ import Restaurants from "./components/Restaurants/Restaurants";
 import Footer from "./components/Footer";
 import GurmetYSazon from "./components/Restaurants/GurmetYSazon";
 import LaPerradaDeYei from "./components/Restaurants/LaPerradaDeYei";
+import TazBurguer from "./components/Restaurants/TazBurguer";
+import ArrozChinoYopalE from "./components/Restaurants/ArrozChinoYopalE";
+import LaLlamarada from "./components/Restaurants/LaLlamarada";
+import RapiRoy from "./components/Restaurants/RapiRoy";
 
 function App() {
   return (
@@ -23,7 +27,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/restaurants" element={<Restaurants />} />
         <Route path="/restaurants/gourmet-y-sazon" element={<GurmetYSazon />} />
+        <Route path="/restaurants/arroz-chino-express" element={<ArrozChinoYopalE />} />
+        <Route path="/restaurants/la-llamarada" element={<LaLlamarada />} />
+        <Route path="/restaurants/taz-burguer" element={<TazBurguer />} />
+        <Route path="/restaurants/rapi-roy" element={<RapiRoy />} />
         <Route path="/restaurants/la-perrada-de-yei" element={<LaPerradaDeYei />} />
+
 
       </Routes>
 

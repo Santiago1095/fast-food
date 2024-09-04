@@ -50,7 +50,7 @@ export default function Premium() {
                 2
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/arroz-chino-express"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -62,7 +62,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/arroz-chino-express"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -80,7 +80,7 @@ export default function Premium() {
                 3
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/la-llamarada"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -92,7 +92,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/la-llamarada"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -110,7 +110,7 @@ export default function Premium() {
                 4
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/taz-burguer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -122,7 +122,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/taz-burguer"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -140,7 +140,7 @@ export default function Premium() {
                 5
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/rapi-roy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -152,7 +152,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/rapi-roy"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -350,7 +350,7 @@ export default function Premium() {
                 2
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/arroz-chino-express"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -362,7 +362,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/arroz-chino-express"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -380,7 +380,7 @@ export default function Premium() {
                 3
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/la-llamarada"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -392,7 +392,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/la-llamarada"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -410,7 +410,7 @@ export default function Premium() {
                 4
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/taz-burguer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -422,7 +422,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/taz-burguer"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -440,7 +440,7 @@ export default function Premium() {
                 5
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/rapi-roy"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -452,7 +452,7 @@ export default function Premium() {
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/rapi-roy"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline

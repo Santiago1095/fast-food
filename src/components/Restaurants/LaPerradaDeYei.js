@@ -18,12 +18,8 @@ import imgHamburguesa3 from "../../assets/imgHamburguesa3.png";
 import imgHotDog from "../../assets/imgHotDog.png";
 import imgHotDog2 from "../../assets/imgHotDog2.png";
 import imgPicada1 from "../../assets/imgPicada1.png";
-import imgCarne from "../../assets/imgCarne.png";
-import imgNuggest from "../../assets/imgNuggest.png";
-
 import imgCarnePlancha from "../../assets/imgCarnePlancha.png";
 import imgCarneEncebollada from "../../assets/imgCarneEncebollada.png";
-import imgPollo from "../../assets/imgPollo.png";
 import imgSalchipapa1 from "../../assets/imgSalchipapa1.png";
 import imgSalchipapa2 from "../../assets/imgSalchipapa2.png";
 import imgSalchipapa3 from "../../assets/imgSalchipapa3.png";
@@ -31,10 +27,7 @@ import imgSalchipapa4 from "../../assets/imgSalchipapa4.png";
 import imgSalchipollo from "../../assets/imgSalchipollo.png";
 import imgSandwich from "../../assets/imgSandwich.png";
 import imgMazorcada1 from "../../assets/imgMazorcada1.png";
-import imgMazorcada2 from "../../assets/imgMazorcada2.png";
-import imgMazorcada3 from "../../assets/imgMazorcada3.png";
 import imgPechugaPlancha from "../../assets/imgPechugaPlancha.png";
-import imgPechugaPlancha2 from "../../assets/imgPechugaPlancha2.png";
 import imgHamburguesaPollo1 from "../../assets/imgHamburguesaPollo1.png";
 import imgHamburguesaPollo2 from "../../assets/imgHamburguesaPollo2.png";
 import imgPicada2 from "../../assets/imgPicada2.png";
@@ -44,11 +37,8 @@ import imgPatacon2 from "../../assets/imgPatacon2.png";
 import imgSopa1 from "../../assets/imgSopa1.png";
 import imgSandwich1 from "../../assets/imgSandwich1.png";
 import imgSandwichPollo1 from "../../assets/imgSandwichPollo1.png";
-
-
-
 import imgCostillaBBQ1 from "../../assets/imgCostillaBBQ1.png";
-import imgCostillaBBQ2 from "../../assets/imgCostillaBBQ2.png";
+
 
 
 import ImgGaseosaPersonal from "../../assets/ImgGaseosaPersonal.png";
