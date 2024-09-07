@@ -12,6 +12,7 @@ import {
   CardImg,
 } from "reactstrap";
 
+import imgPizza from "../../assets/imgPizza.png";
 import imgHamburguesa from "../../assets/imgHamburguesa.png";
 import imgHamburguesa2 from "../../assets/imgHamburguesa2.png";
 import imgHamburguesa3 from "../../assets/imgHamburguesa3.png";
@@ -39,8 +40,6 @@ import imgSandwich1 from "../../assets/imgSandwich1.png";
 import imgSandwichPollo1 from "../../assets/imgSandwichPollo1.png";
 import imgCostillaBBQ1 from "../../assets/imgCostillaBBQ1.png";
 
-
-
 import ImgGaseosaPersonal from "../../assets/ImgGaseosaPersonal.png";
 import imgGaseosa15LtPostobon from "../../assets/imgGaseosa15LtPostobon.png";
 import imgGaseosa3LtCoCua from "../../assets/imgGaseosa3LtCoCua.png";
@@ -54,24 +53,25 @@ import imgCitricaSoda from "../../assets/imgCitricaSoda.png";
 import { SiWhatsapp } from "react-icons/si";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 
-export default function LaPerradaDeYei() {
+export default function PizzeriaLa19Con30() {
   return (
     <>
       <div>
         <h1 className="text-dark text-center fw-bold py-2">
-          <strong>LA PERRADA DE YEI</strong>
+          <strong>PIZZERIA LA 19 CON 30</strong>
         </h1>
         <h3 className="text-dark text-center fw-bold ">
-          <strong>Calle 19 Nº 21 - 35 Barrio El Gavan</strong>
+          <strong>Calle 30 Con 19 Barrio El Gavan</strong>
         </h3>
       </div>
 
       <div>
         <h2 className="text-dark text-center fw-bold py-2">
           Realiza tus pedidos al numero
-          <a className="" href="tel:+57 3222179069">
-            {" 322 217 9069 "}
+          <a className="" href="tel: +57 3107925737">
+            {" 310 792 5737"}
           </a>
           o escribenos al
           <a
@@ -130,7 +130,7 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardImg
                       alt="Card cap"
-                      src={imgHamburguesa}
+                      src={imgPizza}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -139,17 +139,17 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Sencilla
+                        Pizza Hawaiana
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                        Jamon, queso, piña
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $9.000 </strong>
+                        <strong> $10.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -164,8 +164,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
-                      src={imgHamburguesa2}
+                      alt="imgPizza"
+                      src={imgPizza}
                       width="auto"
                       height="auto"
                       className="rounded-5 p-2"
@@ -175,17 +175,17 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Especial
+                        Pizza Pollo
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                        Jamon, queso, champiñones, pollo
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $11.500 </strong>
+                        <strong> $10.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -201,7 +201,7 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardImg
                       alt="Card cap"
-                      src={imgHamburguesa3}
+                      src={imgPizza}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -210,13 +210,537 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Doble Carne
+                        Pizza Carne
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                        Jamon, queso, carne
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgHamburguesa"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Criolla
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, carne, maiz tierno
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Tocineta
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, salchicha, tocineta
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Chorrizo
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, Chorrizo
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Salchicha
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, salchicha
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Caribeña
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, maduro, camaron, chicharron
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Llanerita
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, maiz, maduro, carne, chorizo
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Maduro
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, maduro, pollo
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                       Pizza Camaron
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, cebolla, pimenton, camaron
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Marinera
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Jamon, queso, cebolla, pimenton, carne, calamar
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Mexicana
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                       Jamon, queso, cebolla, pimenton, carne, jalapeños
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Costilla BBQ
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                       Jamon, queso, costilla, tocineta, salsa BBQ
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza De La Casa
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                       Jamon, queso, champiñones, peperoni, salsa picante
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Tropical
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                       Queso, durazno, breva, cereza, uva pasa
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgPizza"
+                      src={imgPizza}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Pizza Salami 
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                     Jamon, queso, cebolla, salami, salsa picante
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $10.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgHamburguesa"
+                      src={imgHamburguesa}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                       Hamburguesa Sencilla
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Carne, queso, jamon, huevo, papa chips
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
@@ -235,8 +759,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa"
-                      src={imgHamburguesa}
+                      alt="imgHamburguesa2"
+                      src={imgHamburguesa2}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -245,121 +769,17 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Doble Carne Especial
+                        Hamburguesa Especial
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas, tocineta y maiz
+                       Carne, queso, jamon, huevo, papa chips
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $15.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgHamburguesaPollo1"
-                      src={imgHamburguesaPollo1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa De Pollo Pechuga Especial
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Pollo, lechuga, tomate, queso, salsas.
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $10.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgHamburguesaPollo2"
-                      src={imgHamburguesaPollo2}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa De Pollo Especial
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Pollo, lechuga, tomate, queso, salsas, tocineta y maiz
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $12.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgHamburguesa3"
-                      src={imgHamburguesa}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa BBQ
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas, tocineta.
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $10.000 </strong>
+                        <strong> $19.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -384,17 +804,17 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Ranchera
+                        Hamburguesa Doble Carne
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                 Carne, queso, jamon, huevo, papa chips
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $12.000 </strong>
+                        <strong> $20    .000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -419,293 +839,13 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa Mexicana
+                       Hamburguesa Koreana
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $12.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgPatacon2"
-                      src={imgPatacon2}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Hamburguesa De Patacon
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $11.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgHotDog"
-                      src={imgHotDog}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Perro Sencilo Con Queso
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Salchicha americana, papas, queso y salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $7.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgHotDog2"
-                      src={imgHotDog2}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Perro Especial
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Salchicha americana, papas, queso y salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $8.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgHotDog"
-                      src={imgHotDog}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Perro Americano
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Salchicha americana, papas, queso y salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $8.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgHotDog2"
-                      src={imgHotDog2}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Perro Americano Especial
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Salchicha americana, papas, queso y salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $10.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgHotDog"
-                      src={imgHotDog}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Perro Americano Con Pollo
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Salchicha americana, pollo, papas, queso y salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $12.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgCarnePlancha"
-                      src={imgCarnePlancha}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Carne A La Plancha
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $19.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgCarneEncebollada"
-                      src={imgCarneEncebollada}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Carne En Cebollada
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
+                       Carne, queso, jamon, huevo, tomate, cebolla, tocineta
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
@@ -724,8 +864,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPechugaPlancha"
-                      src={imgPechugaPlancha}
+                      alt="imgHamburguesa2"
+                      src={imgHamburguesa2}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -734,13 +874,83 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Pechuga A La Plancha
+                        Hamburguesa Mixta
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                     Carne, pollo, queso, jamon, huevo, papa chips
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $20.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgHotDog"
+                      src={imgHotDog}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                        Perro Caliente
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Salchicha americana
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $12.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgHotDog2"
+                      src={imgHotDog2}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                       Perro Especial
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Salchicha, cerne, pollo, jamon, queso, huevo
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
@@ -759,8 +969,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgCostillaBBQ1"
-                      src={imgCostillaBBQ1}
+                      alt="imgHotDog"
+                      src={imgHotDog}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -769,233 +979,17 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Costillas De Cerdo BBQ
+                        Perro Camaron
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Cerdo, lechuga, tomate, queso, salsas
+                       Salchicha, camaron, pimenton, queso, jamon, papas a la francesa
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $28.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgPicada2"
-                      src={imgPicada2}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Trifasico
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, pechuga, costilla de cerdo, papas a la francesa y
-                        patacon
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $25.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgPicada1"
-                      src={imgPicada1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Picada Personal
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Costilla de res, pechuga, papa a la francesa, salchicha
-                        y chorizo
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $17.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgPicada3"
-                      src={imgPicada3}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Picada Mediana
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Costilla de res, pechuga, papa a la francesa, salchicha
-                        y chorizo
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $22.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgPicada1"
-                      src={imgPicada1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Picada Especial
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Costilla de res, pechuga, papa a la francesa, salchicha
-                        y chorizo
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $28.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgSalchipapa1"
-                      src={imgSalchipapa1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Salchipapa Tradicional
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $10.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-           
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgSalchipapa2"
-                      src={imgSalchipapa2}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Salchipapa Americano
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $11.000 </strong>
+                        <strong> $20.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -1020,17 +1014,17 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Salchipapa De La Casa
+                        Salchipapa Sencilo
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                       Papas a la francesa, salchicha
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $18.500 </strong>
+                        <strong> $14.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -1055,17 +1049,17 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Salchipollo Personal
+                        Salchipapa Especial
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                        Papas a la francesa, carne, pollo, jamon, queso
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $15.000 </strong>
+                        <strong> $25.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -1090,17 +1084,52 @@ export default function LaPerradaDeYei() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Salchipapa Mixto
+                     Choripapa Especial
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                       Papas a la francesa, carne, pollo, jamon, queso, huevos, salsas
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
-                        <strong> $14.000 </strong>
+                        <strong> 25.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgMazorcada1"
+                      src={imgMazorcada1}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                   Mazorcada
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Carne, pollo, jamon, queso, papas chips
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $25.000 </strong>
                       </CardText>
 
                       <div className="text-center"></div>
@@ -1131,7 +1160,7 @@ export default function LaPerradaDeYei() {
                         className="mb-1 text-muted fw-bold"
                         tag="h6"
                       >
-                        Carne, lechuga, tomate, queso, salsas
+                        Carne, jamon, queso, pollo
                       </CardSubtitle>
                       <CardText className="text-end text-danger fw-bold">
                         {" "}
@@ -1144,254 +1173,6 @@ export default function LaPerradaDeYei() {
                 </Row>
               </Card>
             </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgMazorcada1"
-                      src={imgMazorcada1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Mazorcada
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $16.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgSopa1"
-                      src={imgSopa1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Sopas
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $5.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgSandwich"
-                      src={imgSandwich}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                       Sandwich Jamon 
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $2.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgSandwich1"
-                      src={imgSandwich1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                      Sandwich Especial
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $7.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgSandwichPollo1"
-                      src={imgSandwichPollo1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Sandwich Pollo
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $8.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgMazorcada1"
-                      src={imgMazorcada1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Mazorcada
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $18.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgMazorcada1"
-                      src={imgMazorcada1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Mazorcada
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $18.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
 
           </Row>
         </CardGroup>
@@ -1726,7 +1507,7 @@ export default function LaPerradaDeYei() {
           <div className="ratio ratio-21x9 ">
             <iframe
               className="rounded-3"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d275.77946446624827!2d-72.40646979254676!3d5.335859216787204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6b0dca93add7cb%3A0x46dfbc4a24770cfe!2sYopal%2C%20Casanare!5e1!3m2!1ses!2sco!4v1722934445055!5m2!1ses!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.1322254067773!2d-72.40713117218571!3d5.335906629025571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6b0dc91ed7b7cf%3A0x620235eb068a9f46!2sCra.%208b%20%2318-2%20a%2018-92%2C%20Yopal%2C%20Casanare!5e0!3m2!1ses!2sco!4v1722934723278!5m2!1ses!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.2860114223361!2d-72.40713117218571!3d5.335906629025571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6b0dc91ed7b7cf%3A0x620235eb068a9f46!2sCra.%208b%20%2318-2%20a%2018-92%2C%20Yopal%2C%20Casanare!5e1!3m2!1ses!2sco!4v1722934829469!5m2!1ses!2sco"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d331.1531407011399!2d-72.3918568782444!3d5.330674349613535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6b0d12bdfbbfeb%3A0x4f2ff066c9f4f056!2sPizeria%20la%2019%20con%2030!5e1!3m2!1ses-419!2sco!4v1725616054148!5m2!1ses-419!2sco"
               title="Restaurante El Buen Gusto"
               allowfullscreen
             ></iframe>
@@ -1739,7 +1520,7 @@ export default function LaPerradaDeYei() {
           <div className="text-center">
             <Button color="primary" style={{ margin: 10 }}>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/Pizzeriala19con30/"
                 target="_blank"
                 rel="noreferrer"
                 className="text-white"
@@ -1758,6 +1539,18 @@ export default function LaPerradaDeYei() {
                 <FaInstagram style={{ width: 30, height: "auto" }} />
               </a>
             </Button>
+
+            <Button color="dark" style={{ margin: 10 }}>
+              <a
+                href="https://www.tiktok.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-white"
+              >
+                <FaTiktok style={{ width: 30, height: "auto" }} />
+              </a>
+            </Button>
+
           </div>
         </div>
       </Container>

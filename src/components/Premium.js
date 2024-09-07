@@ -5,6 +5,7 @@ import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.jpeg";
 import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png";
 import imgNoDisponible from "../assets/imgNoDisponible.png";
+import imgPizzeria19 from "../assets/imgPizzeria19.png";
 
 import { Button, Container, CardImg } from "reactstrap";
 
@@ -200,19 +201,19 @@ export default function Premium() {
                 7
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/pizzeria-la-19-con-30"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgPizzeria19"
+                  src={imgPizzeria19}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/pizzeria-la-19-con-30"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -500,19 +501,19 @@ export default function Premium() {
                 7
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/pizzeria-la-19-con-30"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgPizzeria19"
+                  src={imgPizzeria19}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/pizzeria-la-19-con-30"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline

@@ -17,6 +17,9 @@ import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.jpeg";
 import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png";
+import imgPizzeria19 from "../assets/imgPizzeria19.png";
+
+
 
 export default function Cards() {
   return (
@@ -278,21 +281,29 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
+                  LPizzeria La 19 Con 30
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+              <a
+                href="/restaurants/pizzeria-la-19-con-30"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgPizzeria19"
+                  src={imgPizzeria19}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/pizzeria-la-19-con-30"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
@@ -310,21 +321,29 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
+                No Disponible 
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
+                No Disponible
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+              <a
+                href="/restaurants/la-perrada-de-yei"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgNoDisponible"
+                  src={imgNoDisponible}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/la-perrada-de-yei"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
@@ -342,21 +361,29 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
+                No Disponible
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
+                No Disponible
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+              <a
+                href="/restaurants/la-perrada-de-yei"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgLaPerradaDeYei"
+                  src={imgNoDisponible}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/la-perrada-de-yei"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
@@ -374,21 +401,29 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
+                No Disponible
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
+                No Disponible
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+              <a
+                href="/restaurants/la-perrada-de-yei"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgLaPerradaDeYei"
+                  src={imgNoDisponible}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/la-perrada-de-yei"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
@@ -406,21 +441,29 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
+                No Disponible
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
+                No Disponible
                 </CardSubtitle>
               </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
+              <a
+                href="/restaurants/la-perrada-de-yei"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgLaPerradaDeYei"
+                  src={imgNoDisponible}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
               <CardBody>
                 <Button
-                  href="/restaurants/el-buen-gusto"
+                  href="/restaurants/la-perrada-de-yei"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
                 >
                   Mas info
@@ -429,133 +472,6 @@ export default function Cards() {
             </Card>
           </Col>
 
-          <Col className="py-3">
-            <Card
-              style={{
-                width: "auto",
-              }}
-              className="card h-100"
-            >
-              <CardBody>
-                <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
-                </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
-                </CardSubtitle>
-              </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
-              <CardBody>
-                <Button
-                  href="/restaurants/el-buen-gusto"
-                  className="bg-primary  fw-bold d-grid "
-                >
-                  Mas info
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-
-          <Col className="py-3">
-            <Card
-              style={{
-                width: "auto",
-              }}
-              className="card h-100"
-            >
-              <CardBody>
-                <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
-                </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
-                </CardSubtitle>
-              </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
-              <CardBody>
-                <Button
-                  href="/restaurants/el-buen-gusto"
-                  className="bg-primary  fw-bold d-grid "
-                >
-                  Mas info
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-
-          <Col className="py-3">
-            <Card
-              style={{
-                width: "auto",
-              }}
-              className="card h-100"
-            >
-              <CardBody>
-                <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
-                </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
-                </CardSubtitle>
-              </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
-              <CardBody>
-                <Button
-                  href="/restaurants/el-buen-gusto"
-                  className="bg-primary  fw-bold d-grid "
-                >
-                  Mas info
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
-
-          <Col className="py-3">
-            <Card
-              style={{
-                width: "auto",
-              }}
-              className="card h-100"
-            >
-              <CardBody>
-                <CardTitle tag="h5" className="text-start fw-bold">
-                  No Disponible
-                </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  No Disponible
-                </CardSubtitle>
-              </CardBody>
-              <img
-                alt="Card cap"
-                src={imgNoDisponible}
-                width="auto"
-                className="rounded-5 p-2"
-              />
-              <CardBody>
-                <Button
-                  href="/restaurants/el-buen-gusto"
-                  className="bg-primary  fw-bold d-grid "
-                >
-                  Mas info
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
         </Row>
       </CardGroup>
     </Container>

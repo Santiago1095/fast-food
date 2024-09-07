@@ -15,6 +15,7 @@ import TazBurguer from "./components/Restaurants/TazBurguer";
 import ArrozChinoYopalE from "./components/Restaurants/ArrozChinoYopalE";
 import LaLlamarada from "./components/Restaurants/LaLlamarada";
 import RapiRoy from "./components/Restaurants/RapiRoy";
+import PizzeriaLa19Con30 from "./components/Restaurants/PizzeriaLa19Con30";
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
         <Route path="/restaurants/taz-burguer" element={<TazBurguer />} />
         <Route path="/restaurants/rapi-roy" element={<RapiRoy />} />
         <Route path="/restaurants/la-perrada-de-yei" element={<LaPerradaDeYei />} />
+        <Route path="/restaurants/pizzeria-la-19-con-30" element={<PizzeriaLa19Con30 />} />
+
 
 
       </Routes>

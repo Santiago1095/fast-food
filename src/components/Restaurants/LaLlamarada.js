@@ -625,7 +625,7 @@ import {
                     <Col md="6">
                       <CardBody>
                         <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Baso de Jugos Naturales En Agua 
+                        Vaso de Jugos Naturales En Agua 
                         </CardTitle>
                         <CardSubtitle
                           className="mb-1 text-muted fw-bold"
@@ -695,7 +695,7 @@ import {
                     <Col md="6">
                       <CardBody>
                         <CardTitle tag="h5" className="text-start fw-bold py-2">
-                          Baso De Citrica En Agua
+                          Vaso De Citrica En Agua
                         </CardTitle>
                         <CardSubtitle
                           className="mb-1 text-muted fw-bold"
@@ -730,7 +730,7 @@ import {
                     <Col md="6">
                       <CardBody>
                         <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Baso De Citrica En Soda
+                        Vaso De Citrica En Soda
                         </CardTitle>
                         <CardSubtitle
                           className="mb-1 text-muted fw-bold"
