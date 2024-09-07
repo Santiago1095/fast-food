@@ -11,9 +11,9 @@ import {
   CardImg,
 } from "reactstrap";
 import imgNoDisponible from "../../assets/imgNoDisponible.png";
-import imgGurmetYSazon from "../../assets/imgGurmetYSazon.jpeg";
-import imgYopalExpress from "../../assets/imgYopalExpress.jpg";
-import imgLaLlamarada from "../../assets/imgLaLlamarada.jpg";
+import imgGurmetYSazon from "../../assets/imgGurmetYSazon.png";
+import imgYopalExpress from "../../assets/imgYopalExpress.png";
+import imgLaLlamarada from "../../assets/imgLaLlamarada.png";
 import imgTazBurguer from "../../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../../assets/imgRapiRoy.png";
 
