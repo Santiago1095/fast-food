@@ -18,7 +18,7 @@ function Header() {
   return (
     <Container fluid>
       <Navbar expand="sm" className="navbar-dark">
-        <NavbarBrand href="/">Fast Food</NavbarBrand>
+        <NavbarBrand href="/">La Mano Invisible</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>

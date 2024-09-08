@@ -4,11 +4,13 @@ import img1 from "./../assets/img1.jpeg";
 function TitleOne() {
   return (
     <Container fluid>
-      <h1 className="text-white text-center fluid pt-5 shadow-lg fw-bold">
+      <div className="">
+      <h1 className="text-white  text-center fluid pt-5 shadow-lg fw-bold">
       <strong>
-        GASTRONOMIA EN YOPAL
+        PLAZOLETA DE COMIDAS EN YOPAL
         </strong>
       </h1>
+      </div>
 
       <img
         src={img1}
