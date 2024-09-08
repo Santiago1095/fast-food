@@ -6,6 +6,14 @@ import imgGurmetYSazon from "../assets/imgGurmetYSazon.png";
 import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png";
 import imgNoDisponible from "../assets/imgNoDisponible.png";
 import imgPizzeria19 from "../assets/imgPizzeria19.png";
+import imgElCarriel from "../assets/imgElCarriel.png";
+import imgElCalvo from "../assets/imgElCalvo.png";
+import imgMoryFresas from "../assets/imgMoryFresas.png";
+
+
+
+
+
 
 import { Button, Container, CardImg } from "reactstrap";
 
@@ -232,19 +240,19 @@ export default function Premium() {
                 8
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/el-carriel"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgElCarriel"
+                  src={imgElCarriel}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/el-carriel"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -262,19 +270,19 @@ export default function Premium() {
                 9
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/hamburguesas-el-calvo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgElCalvo"
+                  src={imgElCalvo}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/hamburguesas-el-calvo"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -292,19 +300,19 @@ export default function Premium() {
                 10
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/mory-fresas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgMoryFresas"
+                  src={imgMoryFresas}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/mory-fresas"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -532,19 +540,19 @@ export default function Premium() {
                 8
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/el-carriel"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgElCarriel"
+                  src={imgElCarriel}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/el-carriel"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -592,19 +600,19 @@ export default function Premium() {
                 10
               </h1>
               <a
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/mory-fresas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgYopalExpress"
-                  src={imgNoDisponible}
+                  alt="imgMoryFresas"
+                  src={imgMoryFresas}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/gurmet-y-sazon"
+                href="/restaurants/mory-fresas"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline

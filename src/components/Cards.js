@@ -19,6 +19,11 @@ import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.png";
 import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png";
 import imgPizzeria19 from "../assets/imgPizzeria19.png";
+import imgElCarriel from "../assets/imgElCarriel.png";
+import imgElCalvo from "../assets/imgElCalvo.png";
+import imgMoryFresas from "../assets/imgMoryFresas.png";
+
+
 
 
 
@@ -323,27 +328,27 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                No Disponible 
+                El Carriel
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                No Disponible
+                Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
-                href="/restaurants/la-perrada-de-yei"
+                href="/restaurants/el-carriel"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgElCarriel"
+                  src={imgElCarriel}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <CardBody>
                 <Button
-                  href="/restaurants/la-perrada-de-yei"
+                  href="/restaurants/el-carriel"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
@@ -363,27 +368,27 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                No Disponible
+               Hamburguesas El Calvo
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                No Disponible
+               Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
-                href="/restaurants/la-perrada-de-yei"
+                href="/restaurants/hamburguesas-el-calvo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgLaPerradaDeYei"
-                  src={imgNoDisponible}
+                  alt="imgElCalvo"
+                  src={imgElCalvo}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <CardBody>
                 <Button
-                  href="/restaurants/la-perrada-de-yei"
+                  href="/restaurants/hamburguesas-el-calvo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
@@ -403,27 +408,27 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                No Disponible
+                Mory Fresas
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                No Disponible
+                Heladeria
                 </CardSubtitle>
               </CardBody>
               <a
-                href="/restaurants/la-perrada-de-yei"
+                href="/restaurants/mory-fresas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgLaPerradaDeYei"
-                  src={imgNoDisponible}
+                  alt="imgMoryFresas"
+                  src={imgMoryFresas}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <CardBody>
                 <Button
-                  href="/restaurants/la-perrada-de-yei"
+                  href="/restaurants/mory-fresas"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "

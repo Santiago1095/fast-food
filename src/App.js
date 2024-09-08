@@ -16,6 +16,9 @@ import ArrozChinoYopalE from "./components/Restaurants/ArrozChinoYopalE";
 import LaLlamarada from "./components/Restaurants/LaLlamarada";
 import RapiRoy from "./components/Restaurants/RapiRoy";
 import PizzeriaLa19Con30 from "./components/Restaurants/PizzeriaLa19Con30";
+import ElCarriel from "./components/Restaurants/ElCarriel";
+import HamburguesasElCalvo from "./components/Restaurants/HamburguesasElCalvo";
+import MoryFresas from "./components/Restaurants/MoryFresas";
 
 function App() {
   return (
@@ -34,6 +37,12 @@ function App() {
         <Route path="/restaurants/rapi-roy" element={<RapiRoy />} />
         <Route path="/restaurants/la-perrada-de-yei" element={<LaPerradaDeYei />} />
         <Route path="/restaurants/pizzeria-la-19-con-30" element={<PizzeriaLa19Con30 />} />
+        <Route path="/restaurants/el-carriel" element={<ElCarriel />} />
+        <Route path="/restaurants/hamburguesas-el-calvo" element={<HamburguesasElCalvo />} />
+        <Route path="/restaurants/mory-fresas" element={<MoryFresas />} />
+
+
+
 
 
 
