@@ -22,6 +22,13 @@ import imgPizzeria19 from "../assets/imgPizzeria19.png";
 import imgElCarriel from "../assets/imgElCarriel.png";
 import imgElCalvo from "../assets/imgElCalvo.png";
 import imgMoryFresas from "../assets/imgMoryFresas.png";
+import imgArepasArepas from "../assets/imgArepasArepas.png";
+import imgCrocante from "../assets/imgCrocante.png";
+import imgQueHuboMiPerro from "../assets/imgQueHuboMiPerro.png";
+import imgFresasYCrema from "../assets/imgFresasYCrema.png";
+import imgPukyChicharon from "../assets/imgPukyChicharon.png";
+
+
 
 
 
@@ -448,27 +455,187 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                No Disponible
+                Arepas & Arepas
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                No Disponible
+                Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
-                href="/restaurants/la-perrada-de-yei"
+                href="/restaurants/arepas-arepas"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgLaPerradaDeYei"
-                  src={imgNoDisponible}
+                  alt="imgArepasArepas"
+                  src={imgArepasArepas}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <CardBody>
                 <Button
-                  href="/restaurants/la-perrada-de-yei"
+                  href="/restaurants/arepas-arepas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary  fw-bold d-grid "
+                >
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "auto",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5" className="text-start fw-bold">
+                Crocante
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
+                Comida Rapida
+                </CardSubtitle>
+              </CardBody>
+              <a
+                href="/restaurants/arepas-arepas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgCrocante"
+                  src={imgCrocante}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
+              <CardBody>
+                <Button
+                  href="/restaurants/arepas-arepas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary  fw-bold d-grid "
+                >
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "auto",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5" className="text-start fw-bold">
+                Que Hubo Mi Perro
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
+                Comida Rapida
+                </CardSubtitle>
+              </CardBody>
+              <a
+                href="/restaurants/arepas-arepas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgQueHuboMiPerro"
+                  src={imgQueHuboMiPerro}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
+              <CardBody>
+                <Button
+                  href="/restaurants/arepas-arepas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary  fw-bold d-grid "
+                >
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "auto",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5" className="text-start fw-bold">
+                Fresas & Cremas
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
+                Heladeria
+                </CardSubtitle>
+              </CardBody>
+              <a
+                href="/restaurants/arepas-arepas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgFresasYCrema"
+                  src={imgFresasYCrema}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
+              <CardBody>
+                <Button
+                  href="/restaurants/arepas-arepas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary  fw-bold d-grid "
+                >
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "auto",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5" className="text-start fw-bold">
+                Puky Chicharron
+                </CardTitle>
+                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
+                Comida Rapida
+                </CardSubtitle>
+              </CardBody>
+              <a
+                href="/restaurants/arepas-arepas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgPukyChicharon"
+                  src={imgPukyChicharon}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
+              <CardBody>
+                <Button
+                  href="/restaurants/arepas-arepas"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
