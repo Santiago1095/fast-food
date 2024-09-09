@@ -1,21 +1,19 @@
-import { Container, } from "reactstrap";
+import { Container } from "reactstrap";
 import img1 from "./../assets/img1.jpeg";
 
 function TitleOne() {
   return (
-    <Container fluid>
-      <div className="">
-      <h1 className="text-info  text-center fluid pt-5 shadow-lg fw-bold">
-      <strong>
-        PLAZOLETA DE COMIDAS EN YOPAL
-        </strong>
-      </h1>
+    <Container >
+      <div className="d-block border border-warning bg-dark bg-gradient">
+        <h1 className=" text-warning  text-center  py-3 shadow-lg fw-bold">
+          <strong>PLAZOLETA DE COMIDAS EN YOPAL</strong>
+        </h1>
       </div>
 
       <img
         src={img1}
         alt=""
-        className="d-block w-100"
+        className="d-block w-100 "
         style={{
           height: "20rem",
           objectFit: "cover",
@@ -25,12 +23,13 @@ function TitleOne() {
           zIndex: -1,
         }}
       />
-
-      <h1 className="text-info text-center py-4 shadow-lg fw-bold" >
-      <strong>
-        REALIZA TUS PEDIDOS A DOMICILIO O VISITANOS EN NUESTRAS INSTALACIONES
-        </strong>
-      </h1>
+      <div className="border border-warning bg-dark bg-gradient">
+      <h1 className=" text-warning  text-center  py-3 shadow-lg fw-bold">
+          <strong>
+            REALIZA TUS PEDIDOS A DOMICILIO O VISITANOS EN NUESTRAS INSTALACIONES
+          </strong>
+        </h1>
+      </div>
     </Container>
   );
 }
