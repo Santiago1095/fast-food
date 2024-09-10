@@ -24,6 +24,9 @@ import ComidaRapida from "./components/Categories/ComidaRapida";
 import Heladerias from "./components/Categories/Heladerias";
 import Categorias from "./components/Categories/Categorias";
 import ComidaMexicana from "./components/Categories/ComidaMexicana";
+import Hamburguesas from "./components/Categories/Hamburguesas";
+import HotDogs from "./components/Categories/HotDogs";
+import Picadas from "./components/Categories/Picadas";
 
 function App() {
   return (
@@ -40,6 +43,10 @@ function App() {
         <Route path="/categorias/comidas-rapidas" element={<ComidaRapida />} />
         <Route path="/categorias/heladerias" element={<Heladerias />} />
         <Route path="/categorias/comidas-mexicanas" element={<ComidaMexicana/>} />
+        <Route path="/categorias/hamburguesas" element={<Hamburguesas/>} />
+        <Route path="/categorias/hot-dogs" element={<HotDogs/>} />
+        <Route path="/categorias/picadas" element={<Picadas/>} />
+
 
 
         <Route path="/restaurants/gourmet-y-sazon" element={<GurmetYSazon />} />

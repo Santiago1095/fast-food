@@ -14,6 +14,10 @@ import {
 
   import imgHamburguesa from "../../assets/imgHamburguesa.png";
   import imgPapas from "../../assets/imgPapas.png";
+  import imgHotDog from "../../assets/imgHotDog.png";
+  import imgPicada1 from "../../assets/imgPicada1.png";
+  
+
 
 
   
@@ -140,6 +144,128 @@ import {
                 <CardBody>
                   <Button
                     href="/categorias/comidas-mexicanas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-primary  fw-bold d-grid "
+                  >
+                    Mas info
+                  </Button>
+                </CardBody>
+              </Card>
+            </Col>
+
+
+
+            <Col className="py-3">
+              <Card
+                style={{
+                  width: "auto",
+                }}
+                className="card h-100"
+              >
+                <CardBody>
+                  <CardTitle tag="h5" className="text-start fw-bold">
+                  Hamburguesas
+                  </CardTitle>
+                  <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
+                  Hamburguesas
+                  </CardSubtitle>
+                </CardBody>
+                <a
+                  href="/categorias/hamburguesas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CardImg
+                    alt="imgHamburguesa"
+                    src={imgHamburguesa}
+                    width="auto"
+                    className="rounded-5 p-2"
+                  />
+                </a>
+                <CardBody>
+                  <Button
+                    href="/categorias/hamburguesas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-primary  fw-bold d-grid "
+                  >
+                    Mas info
+                  </Button>
+                </CardBody>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card
+                style={{
+                  width: "auto",
+                }}
+                className="card h-100"
+              >
+                <CardBody>
+                  <CardTitle tag="h5" className="text-start fw-bold">
+                  Hot Dog
+                  </CardTitle>
+                  <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
+                  Hot Dog
+                  </CardSubtitle>
+                </CardBody>
+                <a
+                  href="/categorias/hot-dogs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CardImg
+                    alt="imgHotDog"
+                    src={imgHotDog}
+                    width="auto"
+                    className="rounded-5 p-2"
+                  />
+                </a>
+                <CardBody>
+                  <Button
+                    href="/categorias/hot-dogs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-primary  fw-bold d-grid "
+                  >
+                    Mas info
+                  </Button>
+                </CardBody>
+              </Card>
+            </Col>
+
+            <Col className="py-3">
+              <Card
+                style={{
+                  width: "auto",
+                }}
+                className="card h-100"
+              >
+                <CardBody>
+                  <CardTitle tag="h5" className="text-start fw-bold">
+                  Picadas
+                  </CardTitle>
+                  <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
+                  Picadas
+                  </CardSubtitle>
+                </CardBody>
+                <a
+                  href="/categorias/picadas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CardImg
+                    alt="imgPicada1"
+                    src={imgPicada1}
+                    width="auto"
+                    className="rounded-5 p-2"
+                  />
+                </a>
+                <CardBody>
+                  <Button
+                    href="/categorias/picadas"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-primary  fw-bold d-grid "
