@@ -28,13 +28,6 @@ import imgQueHuboMiPerro from "../assets/imgQueHuboMiPerro.png";
 import imgFresasYCrema from "../assets/imgFresasYCrema.png";
 import imgPukyChicharon from "../assets/imgPukyChicharon.png";
 
-
-
-
-
-
-
-
 export default function Cards() {
   return (
     <Container fluid className="py-1  bg-primary-subtle rounded-4">
@@ -141,7 +134,6 @@ export default function Cards() {
                 </CardSubtitle>
               </CardBody>
 
-              
               <a
                 href="/restaurants/la-llamarada"
                 target="_blank"
@@ -237,7 +229,7 @@ export default function Cards() {
                 <Button
                   href="/restaurants/rapi-roy"
                   className="bg-primary  fw-bold d-grid "
-                   target="_blank"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   Mas info
@@ -335,10 +327,10 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                El Carriel
+                  El Carriel
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                Comida Rapida
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
@@ -375,10 +367,10 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-               Hamburguesas El Calvo
+                  Hamburguesas El Calvo
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-               Comida Rapida
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
@@ -415,10 +407,10 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                Mory Fresas
+                  Mory Fresas
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                Heladeria
+                  Heladeria
                 </CardSubtitle>
               </CardBody>
               <a
@@ -455,10 +447,10 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                Arepas & Arepas
+                  Arepas & Arepas
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                Comida Rapida
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
@@ -495,10 +487,10 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                Crocante
+                  Crocante
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                Comida Rapida
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
@@ -535,10 +527,10 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                Que Hubo Mi Perro
+                  Que Hubo Mi Perro
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                Comida Rapida
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
@@ -575,10 +567,10 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                Fresas & Cremas
+                  Fresas & Cremas
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                Heladeria
+                  Heladeria
                 </CardSubtitle>
               </CardBody>
               <a
@@ -615,10 +607,10 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                Puky Chicharron
+                  Puky Chicharron
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                Comida Rapida
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
@@ -645,7 +637,6 @@ export default function Cards() {
               </CardBody>
             </Card>
           </Col>
-
         </Row>
       </CardGroup>
     </Container>

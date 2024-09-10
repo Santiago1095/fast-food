@@ -20,6 +20,10 @@ import ElCarriel from "./components/Restaurants/ElCarriel";
 import HamburguesasElCalvo from "./components/Restaurants/HamburguesasElCalvo";
 import MoryFresas from "./components/Restaurants/MoryFresas";
 import ArepasArepas from "./components/Restaurants/ArepasArepas";
+import ComidaRapida from "./components/Categories/ComidaRapida";
+import Heladerias from "./components/Categories/Heladerias";
+import Categorias from "./components/Categories/Categorias";
+import ComidaMexicana from "./components/Categories/ComidaMexicana";
 
 function App() {
   return (
@@ -31,6 +35,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/restaurants" element={<Restaurants />} />
+        <Route path="/categorias" element={<Categorias />} />
+
+        <Route path="/categorias/comidas-rapidas" element={<ComidaRapida />} />
+        <Route path="/categorias/heladerias" element={<Heladerias />} />
+        <Route path="/categorias/comidas-mexicanas" element={<ComidaMexicana/>} />
+
+
         <Route path="/restaurants/gourmet-y-sazon" element={<GurmetYSazon />} />
         <Route path="/restaurants/arroz-chino-express" element={<ArrozChinoYopalE />} />
         <Route path="/restaurants/la-llamarada" element={<LaLlamarada />} />

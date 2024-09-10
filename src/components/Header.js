@@ -26,7 +26,7 @@ function Header() {
               <NavLink href="/restaurants/">RESTAURANTES</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/menu">MENU</NavLink>
+              <NavLink href="/categorias/">CATEGORIAS</NavLink>
             </NavItem>
           </Nav>
           <NavbarText>Ver Carrito</NavbarText>

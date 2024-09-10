@@ -3,9 +3,9 @@ import img1 from "./../assets/img1.jpeg";
 
 function TitleOne() {
   return (
-    <Container >
-      <div className="d-block border border-warning bg-dark bg-gradient">
-        <h1 className=" text-warning  text-center  py-3 shadow-lg fw-bold">
+    <Container className="shadow-lg">
+      <div className="">
+        <h1 className=" text-white  text-center  py-3 shadow-lg fw-bold">
           <strong>PLAZOLETA DE COMIDAS EN YOPAL</strong>
         </h1>
       </div>
@@ -23,8 +23,8 @@ function TitleOne() {
           zIndex: -1,
         }}
       />
-      <div className="border border-warning bg-dark bg-gradient">
-      <h1 className=" text-warning  text-center  py-3 shadow-lg fw-bold">
+      <div className="">
+      <h1 className=" text-white  text-center  py-3 shadow-lg fw-bold">
           <strong>
             REALIZA TUS PEDIDOS A DOMICILIO O VISITANOS EN NUESTRAS INSTALACIONES
           </strong>
