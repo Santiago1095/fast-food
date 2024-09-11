@@ -575,8 +575,8 @@ export default function Premium() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgNoDisponible"
-                  src={imgNoDisponible}
+                  alt="imgElCalvo"
+                  src={imgElCalvo}
                   width="auto"
                   className="rounded-5 p-2"
                 />
