@@ -14,11 +14,11 @@ import {
 import imgMoryFresas from "../../assets/imgMoryFresas.png";
 import imgFresasYCrema from "../../assets/imgFresasYCrema.png";
 
-export default function Heladerias() {
+export default function Pizza() {
   return (
     <Container fluid className="py-1  bg-primary-subtle rounded-4">
       <h1 className="text-dark text-center fw-bold py-2">
-        <strong>HELADERIAS</strong>
+        <strong>PIZZA</strong>
       </h1>
       <CardGroup className="container-fluid">
         <Row xs={1} sm={2} md={3} lg={4} xl={5} xxl={10}>

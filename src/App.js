@@ -27,6 +27,7 @@ import ComidaMexicana from "./components/Categories/ComidaMexicana";
 import Hamburguesas from "./components/Categories/Hamburguesas";
 import HotDogs from "./components/Categories/HotDogs";
 import Picadas from "./components/Categories/Picadas";
+import Pizza from "./components/Categories/Pizza";
 
 function App() {
   return (
@@ -45,7 +46,10 @@ function App() {
         <Route path="/categorias/comidas-mexicanas" element={<ComidaMexicana/>} />
         <Route path="/categorias/hamburguesas" element={<Hamburguesas/>} />
         <Route path="/categorias/hot-dogs" element={<HotDogs/>} />
+        <Route path="/categorias/pizza" element={<Pizza/>} />
         <Route path="/categorias/picadas" element={<Picadas/>} />
+      
+
 
 
 
