@@ -287,7 +287,7 @@ export default function Cards() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  LPizzeria La 19 Con 30
+                  Pizzeria La 19 Con 30
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
                   Comida Rapida

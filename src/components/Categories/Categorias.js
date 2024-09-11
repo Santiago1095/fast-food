@@ -5,7 +5,6 @@ import {
   CardBody,
   CardTitle,
   Card,
-  CardSubtitle,
   Button,
   CardGroup,
   CardImg,
@@ -38,9 +37,7 @@ export default function Categorias() {
                 <CardTitle tag="h5" className="text-start fw-bold">
                   Comidas Rapidas
                 </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Comidas Rapidas
-                </CardSubtitle>
+               
               </CardBody>
               <a
                 href="/categorias/comidas-rapidas"
@@ -67,45 +64,6 @@ export default function Categorias() {
             </Card>
           </Col>
 
-          <Col className="py-3">
-            <Card
-              style={{
-                width: "auto",
-              }}
-              className="card h-100"
-            >
-              <CardBody>
-                <CardTitle tag="h5" className="text-start fw-bold">
-                  Heladeria
-                </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Heladeria
-                </CardSubtitle>
-              </CardBody>
-              <a
-                href="/categorias/heladerias"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <CardImg
-                  alt="imgHeladeria"
-                  src={imgHeladeria}
-                  width="auto"
-                  className="rounded-5 p-2"
-                />
-              </a>
-              <CardBody>
-                <Button
-                  href="/categorias/heladerias"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-primary  fw-bold d-grid "
-                >
-                  Mas info
-                </Button>
-              </CardBody>
-            </Card>
-          </Col>
 
           <Col className="py-3">
             <Card
@@ -116,11 +74,49 @@ export default function Categorias() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  Comida Mexicana
+                  Comidas Mexicanas
                 </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Comida Mexicana
-                </CardSubtitle>
+               
+              </CardBody>
+              <a
+                href="/categorias/comidas-mexicanas"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgComidaMexicana"
+                  src={imgComidaMexicana}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
+              <CardBody>
+                <Button
+                  href="/categorias/comidas-mexicanas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary  fw-bold d-grid "
+                >
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+
+
+
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "auto",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5" className="text-start fw-bold">
+                  Comidas Tradicionales
+                </CardTitle>
+                
               </CardBody>
               <a
                 href="/categorias/comidas-mexicanas"
@@ -156,11 +152,49 @@ export default function Categorias() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
+                  Heladeria
+                </CardTitle>
+               
+              </CardBody>
+              <a
+                href="/categorias/heladerias"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <CardImg
+                  alt="imgHeladeria"
+                  src={imgHeladeria}
+                  width="auto"
+                  className="rounded-5 p-2"
+                />
+              </a>
+              <CardBody>
+                <Button
+                  href="/categorias/heladerias"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary  fw-bold d-grid "
+                >
+                  Mas info
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+
+         
+
+          <Col className="py-3">
+            <Card
+              style={{
+                width: "auto",
+              }}
+              className="card h-100"
+            >
+              <CardBody>
+                <CardTitle tag="h5" className="text-start fw-bold">
                   Hamburguesas
                 </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Hamburguesas
-                </CardSubtitle>
+               
               </CardBody>
               <a
                 href="/categorias/hamburguesas"
@@ -198,9 +232,7 @@ export default function Categorias() {
                 <CardTitle tag="h5" className="text-start fw-bold">
                   Hot Dog
                 </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Hot Dog
-                </CardSubtitle>
+           
               </CardBody>
               <a
                 href="/categorias/hot-dogs"
@@ -238,9 +270,7 @@ export default function Categorias() {
                 <CardTitle tag="h5" className="text-start fw-bold">
                   Pizza
                 </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Pizza
-                </CardSubtitle>
+             
               </CardBody>
               <a
                 href="/categorias/pizza"
@@ -278,9 +308,7 @@ export default function Categorias() {
                 <CardTitle tag="h5" className="text-start fw-bold">
                   Picadas
                 </CardTitle>
-                <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Picadas
-                </CardSubtitle>
+            
               </CardBody>
               <a
                 href="/categorias/picadas"

@@ -11,8 +11,8 @@ import {
   CardImg,
 } from "reactstrap";
 
-import imgMoryFresas from "../../assets/imgMoryFresas.png";
-import imgFresasYCrema from "../../assets/imgFresasYCrema.png";
+
+import imgPizzeria19 from "../../assets/imgPizzeria19.png";
 
 export default function Pizza() {
   return (
@@ -31,27 +31,27 @@ export default function Pizza() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  Mory Fresas
+                  Pizzeria La 19 Con 30
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Heladeria
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
-                href="/restaurants/mory-fresas"
+                href="/restaurants/pizzeria-la-19-con-30"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgMoryFresas"
-                  src={imgMoryFresas}
+                  alt="imgPizzeria19"
+                  src={imgPizzeria19}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <CardBody>
                 <Button
-                  href="/restaurants/mory-fresas"
+                  href="/restaurants/pizzeria-la-19-con-30"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "
@@ -71,27 +71,27 @@ export default function Pizza() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  Fresas & Cremas
+                  Pizzeria La 19 Con 30
                 </CardTitle>
                 <CardSubtitle className="mb-1 text-muted fw-bold" tag="h6">
-                  Heladeria
+                  Comida Rapida
                 </CardSubtitle>
               </CardBody>
               <a
-                href="/restaurants/arepas-arepas"
+                href="/restaurants/pizzeria-la-19-con-30"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgFresasYCrema"
-                  src={imgFresasYCrema}
+                  alt="imgPizzeria19"
+                  src={imgPizzeria19}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <CardBody>
                 <Button
-                  href="/restaurants/arepas-arepas"
+                  href="/restaurants/pizzeria-la-19-con-30"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary  fw-bold d-grid "

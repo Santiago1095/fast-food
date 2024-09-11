@@ -13,7 +13,7 @@ export default function Search() {
   return (
     <div className=" text-center">
       <Button
-        className="bg-warning  text-center fw-bold border-warning text-dark"
+        className="bg-warning  text-center fw-bold border-dark text-dark"
         color="primary"
         id="toggler"
         style={{
@@ -45,7 +45,7 @@ export default function Search() {
               </Button>
 
               <Button
-                href="/categorias/heladerias"
+                href="/categorias/comidas-tradicionales"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-danger  fw-bold d-grid "
