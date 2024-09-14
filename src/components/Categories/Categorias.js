@@ -152,7 +152,7 @@ export default function Categorias() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  Heladeria
+                  Heladerias
                 </CardTitle>
                
               </CardBody>
@@ -230,7 +230,7 @@ export default function Categorias() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  Hot Dog
+                  Hot Dogs
                 </CardTitle>
            
               </CardBody>
@@ -268,7 +268,7 @@ export default function Categorias() {
             >
               <CardBody>
                 <CardTitle tag="h5" className="text-start fw-bold">
-                  Pizza
+                  Pizzas
                 </CardTitle>
              
               </CardBody>

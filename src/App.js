@@ -29,6 +29,7 @@ import HotDogs from "./components/Categories/HotDogs";
 import Picadas from "./components/Categories/Picadas";
 import Pizza from "./components/Categories/Pizza";
 import ComidaTradacional from "./components/Categories/ComidaTradacional";
+import EsquinaDelSabor from "./components/Restaurants/EsquinaDelSabor";
 
 function App() {
   return (
@@ -66,6 +67,8 @@ function App() {
         <Route path="/restaurants/hamburguesas-el-calvo" element={<HamburguesasElCalvo />} />
         <Route path="/restaurants/mory-fresas" element={<MoryFresas />} />
         <Route path="/restaurants/arepas-arepas" element={<ArepasArepas />} />
+        <Route path="/restaurants/la-esquina-del-sabor" element={<EsquinaDelSabor />} />
+
 
 
 
