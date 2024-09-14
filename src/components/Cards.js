@@ -15,6 +15,7 @@ import imgNoDisponible from "../assets/imgNoDisponible.png";
 import imgYopalExpress from "../assets/imgYopalExpress.png";
 import imgLaLlamarada from "../assets/imgLaLlamarada.png";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
+import imgLaEsquinaDelSabor from "../assets/imgLaEsquinaDelSabor.png";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.png";
 import imgLaPerradaDeYei from "../assets/imgLaPerradaDeYei.png";
@@ -180,8 +181,8 @@ export default function Cards() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgPizzeria19"
-                  src={imgPizzeria19}
+                  alt="imgLaEsquinaDelSabor"
+                  src={imgLaEsquinaDelSabor}
                   width="auto"
                   className="rounded-5 p-2"
                 />
