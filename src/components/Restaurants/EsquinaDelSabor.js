@@ -13,45 +13,54 @@ import {
 } from "reactstrap";
 
 import imgHamburgesaSencilla from "../../assets/LaEsquinaDelSabor/imgHamburgesaSencilla.png";
+import imgHamburguesaDobleCarne from "../../assets/LaEsquinaDelSabor/imgHamburguesaDobleCarne.png";
+import imgLaEncantadora from "../../assets/LaEsquinaDelSabor/imgLaEncantadora.png";
+import imgHamburguesaChikenpig from "../../assets/LaEsquinaDelSabor/imgHamburguesaChikenpig.png";
+import imgMechiBurguer from "../../assets/LaEsquinaDelSabor/imgMechiBurguer.png";
+import imgHamburguesaMixta from "../../assets/LaEsquinaDelSabor/imgHamburguesaMixta.png";
+import imgHamburguesaPatacon from "../../assets/LaEsquinaDelSabor/imgHamburguesaPatacon.png";
+import imgPerroSencillo from "../../assets/LaEsquinaDelSabor/imgPerroSencillo.png";
+import imgMechiPerro from "../../assets/LaEsquinaDelSabor/imgMechiPerro.png";
+import imgMechiPerroCombo from "../../assets/LaEsquinaDelSabor/imgMechiPerroCombo.png";
+import imgPapaLocaLaChingona from "../../assets/LaEsquinaDelSabor/imgPapaLocaLaChingona.png";
+import imgPapaGomela from "../../assets/LaEsquinaDelSabor/imgPapaGomela.png";
+import imgPapasMontañeras from "../../assets/LaEsquinaDelSabor/imgPapasMontañeras.png";
+import imgPapasPoderosas from "../../assets/LaEsquinaDelSabor/imgPapasPoderosas.png";
+import imgPapasFusion from "../../assets/LaEsquinaDelSabor/imgPapasFusion.png";
+import imgSalchipapaSencillo from "../../assets/LaEsquinaDelSabor/imgSalchipapaSencillo.png";
+import imgSalchipapaLaTremenda from "../../assets/LaEsquinaDelSabor/imgSalchipapaLaTremenda.png";
+import imgSalchichicharon from "../../assets/LaEsquinaDelSabor/imgSalchichicharon.png";
+import imgPicadaPersonal from "../../assets/LaEsquinaDelSabor/imgPicadaPersonal.png";
+import imgPicadaMediana from "../../assets/LaEsquinaDelSabor/imgPicadaMediana.png";
+import imgPicadaGrande from "../../assets/LaEsquinaDelSabor/imgPicadaGrande.png";
+import imgPicadaXgrande from "../../assets/LaEsquinaDelSabor/imgPicadaXgrande.png";
+import imgPicadaBurguer from "../../assets/LaEsquinaDelSabor/imgPicadaBurguer.png";
+import imgMazorcada from "../../assets/LaEsquinaDelSabor/imgMazorcada.png";
+import imgCostillasBBQ from "../../assets/LaEsquinaDelSabor/imgCostillasBBQ.png";
+import imgArrozConPollo from "../../assets/LaEsquinaDelSabor/imgArrozConPollo.png";
+import imgChurrasco300Grm from "../../assets/LaEsquinaDelSabor/imgChurrasco300Grm.png";
+import imgMiniPaisa from "../../assets/LaEsquinaDelSabor/imgMiniPaisa.png";
+import imgAlmuerzos from "../../assets/LaEsquinaDelSabor/imgAlmuerzos.png";
+import imgJugos from "../../assets/LaEsquinaDelSabor/imgJugos.png";
 
-import imgHamburguesa from "../../assets/imgHamburguesa.png";
-import imgHamburguesa2 from "../../assets/imgHamburguesa2.png";
-import imgHamburguesa3 from "../../assets/imgHamburguesa3.png";
-import imgHotDog from "../../assets/imgHotDog.png";
-import imgHotDog2 from "../../assets/imgHotDog2.png";
-import imgPicada1 from "../../assets/imgPicada1.png";
-import imgCarnePlancha from "../../assets/imgCarnePlancha.png";
-import imgCarneEncebollada from "../../assets/imgCarneEncebollada.png";
-import imgSalchipapa1 from "../../assets/imgSalchipapa1.png";
-import imgSalchipapa2 from "../../assets/imgSalchipapa2.png";
-import imgSalchipapa3 from "../../assets/imgSalchipapa3.png";
-import imgSalchipapa4 from "../../assets/imgSalchipapa4.png";
-import imgSalchipollo from "../../assets/imgSalchipollo.png";
-import imgSandwich from "../../assets/imgSandwich.png";
-import imgMazorcada1 from "../../assets/imgMazorcada1.png";
-import imgPechugaPlancha from "../../assets/imgPechugaPlancha.png";
-import imgHamburguesaPollo1 from "../../assets/imgHamburguesaPollo1.png";
-import imgHamburguesaPollo2 from "../../assets/imgHamburguesaPollo2.png";
-import imgPicada2 from "../../assets/imgPicada2.png";
-import imgPicada3 from "../../assets/imgPicada3.png";
-import imgPatacon1 from "../../assets/imgPatacon1.png";
-import imgPatacon2 from "../../assets/imgPatacon2.png";
-import imgSopa1 from "../../assets/imgSopa1.png";
-import imgSandwich1 from "../../assets/imgSandwich1.png";
-import imgSandwichPollo1 from "../../assets/imgSandwichPollo1.png";
-import imgCostillaBBQ1 from "../../assets/imgCostillaBBQ1.png";
+
+
+
 
 import ImgGaseosaPersonal from "../../assets/ImgGaseosaPersonal.png";
 import imgGaseosa15LtPostobon from "../../assets/imgGaseosa15LtPostobon.png";
 import imgGaseosa3LtCoCua from "../../assets/imgGaseosa3LtCoCua.png";
 import imgAguaBotella from "../../assets/imgAguaBotella.png";
 import imgAguaGas from "../../assets/imgAguaGas.png";
-import imgJugos from "../../assets/imgJugos.jpeg";
-import imgJugoJarra from "../../assets/imgJugoJarra.png";
-import imgCitrica1 from "../../assets/imgCitrica1.png";
-import imgCitricaSoda from "../../assets/imgCitricaSoda.png";
+
+
 import imgCervezaAguilaLata from "../../assets/imgCervezaAguilaLata.png";
 import imgCervezaCosteñaLata from "../../assets/imgCervezaCosteñaLata.png";
+import imgCervezaBudweiserLata269ml from "../../assets/imgCervezaBudweiserLata269ml.png";
+import imgCervezaPoker from "../../assets/imgCervezaPoker.png";
+
+
+
 
 import { SiWhatsapp } from "react-icons/si";
 import { FaFacebook } from "react-icons/fa";
@@ -131,7 +140,7 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
+                      alt="imgHamburgesaSencilla"
                       src={imgHamburgesaSencilla}
                       width="auto"
                       className="rounded-5 p-2"
@@ -166,8 +175,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
-                      src={imgHamburguesa2}
+                      alt="imgHamburguesaDobleCarne"
+                      src={imgHamburguesaDobleCarne}
                       width="auto"
                       height="auto"
                       className="rounded-5 p-2"
@@ -202,8 +211,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburgesaSencilla"
-                      src={imgHamburgesaSencilla}
+                      alt="imgLaEncantadora"
+                      src={imgLaEncantadora}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -237,8 +246,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa"
-                      src={imgHamburguesa}
+                      alt="imgHamburguesaChikenpig"
+                      src={imgHamburguesaChikenpig}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -272,8 +281,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa"
-                      src={imgHamburguesa}
+                      alt="imgMechiBurguer"
+                      src={imgMechiBurguer}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -307,8 +316,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesaPollo1"
-                      src={imgHamburguesaPollo1}
+                      alt="imgHamburguesaMixta"
+                      src={imgHamburguesaMixta}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -341,8 +350,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesaPollo2"
-                      src={imgHamburguesaPollo2}
+                      alt="imgHamburguesaPatacon"
+                      src={imgHamburguesaPatacon}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -376,8 +385,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa3"
-                      src={imgHamburguesa}
+                      alt="imgPerroSencillo"
+                      src={imgPerroSencillo}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -411,8 +420,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa3"
-                      src={imgHamburguesa3}
+                      alt="imgMechiPerro"
+                      src={imgMechiPerro}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -421,7 +430,7 @@ export default function EsquinaDelSabor() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        MechiPerro Sencillo
+                        Mechi Perro Sencillo
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
@@ -446,8 +455,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa"
-                      src={imgHamburguesa}
+                      alt="imgMechiPerroCombo"
+                      src={imgMechiPerroCombo}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -456,7 +465,7 @@ export default function EsquinaDelSabor() {
                   <Col md="6">
                     <CardBody>
                       <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        MechiPerro Combo
+                        Mechi Perro Combo
                       </CardTitle>
                       <CardSubtitle
                         className="mb-1 text-muted fw-bold"
@@ -481,8 +490,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPatacon2"
-                      src={imgPatacon2}
+                      alt="imgPapaLocaLaChingona"
+                      src={imgPapaLocaLaChingona}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -516,8 +525,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHotDog"
-                      src={imgHotDog}
+                      alt="imgPapaGomela"
+                      src={imgPapaGomela}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -551,8 +560,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHotDog2"
-                      src={imgHotDog2}
+                      alt="imgPapasMontañeras"
+                      src={imgPapasMontañeras}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -586,8 +595,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHotDog"
-                      src={imgHotDog}
+                      alt="imgPapasPoderosas"
+                      src={imgPapasPoderosas}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -621,8 +630,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHotDog2"
-                      src={imgHotDog2}
+                      alt="imgPapasFusion"
+                      src={imgPapasFusion}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -656,8 +665,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHotDog"
-                      src={imgHotDog}
+                      alt="imgSalchipapaSencillo"
+                      src={imgSalchipapaSencillo}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -691,8 +700,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgCarnePlancha"
-                      src={imgCarnePlancha}
+                      alt="imgSalchipapaLaTremenda"
+                      src={imgSalchipapaLaTremenda}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -726,8 +735,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgCarneEncebollada"
-                      src={imgCarneEncebollada}
+                      alt="imgSalchichicharon"
+                      src={imgSalchichicharon}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -761,8 +770,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPechugaPlancha"
-                      src={imgPechugaPlancha}
+                      alt="imgPicadaPersonal"
+                      src={imgPicadaPersonal}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -796,8 +805,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgCostillaBBQ1"
-                      src={imgCostillaBBQ1}
+                      alt="imgPicadaMediana"
+                      src={imgPicadaMediana}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -831,8 +840,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPicada2"
-                      src={imgPicada2}
+                      alt="imgPicadaGrande"
+                      src={imgPicadaGrande}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -867,8 +876,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPicada1"
-                      src={imgPicada1}
+                      alt="imgPicadaXgrande"
+                      src={imgPicadaXgrande}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -903,8 +912,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPicada3"
-                      src={imgPicada3}
+                      alt="imgPicadaBurguer"
+                      src={imgPicadaBurguer}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -939,8 +948,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPicada1"
-                      src={imgPicada1}
+                      alt="imgMazorcada"
+                      src={imgMazorcada}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -975,8 +984,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipapa1"
-                      src={imgSalchipapa1}
+                      alt="imgCostillasBBQ"
+                      src={imgCostillasBBQ}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1010,8 +1019,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipapa2"
-                      src={imgSalchipapa2}
+                      alt="imgArrozConPollo"
+                      src={imgArrozConPollo}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1045,8 +1054,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipapa3"
-                      src={imgSalchipapa3}
+                      alt="imgChurrasco300Grm"
+                      src={imgChurrasco300Grm}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1080,8 +1089,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipollo"
-                      src={imgSalchipollo}
+                      alt="imgMiniPaisa"
+                      src={imgMiniPaisa}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1115,8 +1124,8 @@ export default function EsquinaDelSabor() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipapa4"
-                      src={imgSalchipapa4}
+                      alt="imgAlmuerzos"
+                      src={imgAlmuerzos}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1363,110 +1372,8 @@ export default function EsquinaDelSabor() {
               </Card>
             </Col>
 
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgJugoJarra"
-                      src={imgJugoJarra}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
+           
 
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Jarra de Jugos Naturales En Agua
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Maracuya, lulo, piña, mora, fresas y demas.
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $12.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgCitrica1"
-                      src={imgCitrica1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Vaso De Citrica En Agua
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Limon, hielo, agua y azucar.
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $6.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgCitricaSoda"
-                      src={imgCitricaSoda}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Vaso De Citrica En Soda
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Limon, hielo, soda y azucar.
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $7.000 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
 
             <Col className="py-3">
               <Card>
@@ -1537,6 +1444,80 @@ export default function EsquinaDelSabor() {
                 </Row>
               </Card>
             </Col>
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgCervezaPoker"
+                      src={imgCervezaPoker}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                      Cerveza Poker
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Cerveza Poker
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $3.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+
+            <Col className="py-3">
+              <Card>
+                <Row>
+                  <Col md="6">
+                    <CardImg
+                      alt="imgCervezaBudweiserLata269ml"
+                      src={imgCervezaBudweiserLata269ml}
+                      width="auto"
+                      className="rounded-5 p-2"
+                    />
+                  </Col>
+
+                  <Col md="6">
+                    <CardBody>
+                      <CardTitle tag="h5" className="text-start fw-bold py-2">
+                      Cerveza Budweiser
+                      </CardTitle>
+                      <CardSubtitle
+                        className="mb-1 text-muted fw-bold"
+                        tag="h6"
+                      >
+                        Cerveza Budweiser
+                      </CardSubtitle>
+                      <CardText className="text-end text-danger fw-bold">
+                        {" "}
+                        <strong> $3.000 </strong>
+                      </CardText>
+
+                      <div className="text-center"></div>
+                    </CardBody>
+                  </Col>
+                </Row>
+              </Card>
+            </Col>
+
+
+
           </Row>
         </CardGroup>
 
