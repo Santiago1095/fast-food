@@ -1,5 +1,6 @@
 import imgYopalExpress from "../assets/imgYopalExpress.png";
 import imgLaLlamarada from "../assets/imgLaLlamarada.png";
+import imgLaEsquinaDelSabor from "../assets/imgLaEsquinaDelSabor.png";
 import imgTazBurguer from "../assets/imgTazBurguer.jpg";
 import imgRapiRoy from "../assets/imgRapiRoy.png";
 import imgGurmetYSazon from "../assets/imgGurmetYSazon.png";
@@ -90,19 +91,19 @@ export default function Premium() {
                 3
               </h1>
               <a
-                href="/restaurants/la-llamarada"
+                href="/restaurants/la-esquina-del-sabor"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgLaLlamarada"
-                  src={imgLaLlamarada}
+                  alt="imgLaEsquinaDelSabor"
+                  src={imgLaEsquinaDelSabor}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/la-llamarada"
+                href="/restaurants/la-esquina-del-sabor"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline
@@ -390,19 +391,19 @@ export default function Premium() {
                 3
               </h1>
               <a
-                href="/restaurants/la-llamarada"
+                href="/restaurants/la-esquina-del-sabor"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgLaLlamarada"
-                  src={imgLaLlamarada}
+                  alt="imgLaEsquinaDelSabor"
+                  src={imgLaEsquinaDelSabor}
                   width="auto"
                   className="rounded-5 p-2"
                 />
               </a>
               <Button
-                href="/restaurants/la-llamarada"
+                href="/restaurants/la-esquina-del-sabor"
                 target="_blank"
                 rel="noopener noreferrer"
                 outline

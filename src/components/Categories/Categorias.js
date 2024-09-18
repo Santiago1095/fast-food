@@ -17,6 +17,8 @@ import imgBurger from "../../assets/imgBurger.png";
 import imgHotDogs from "../../assets/imgHotDogs.png";
 import imgPizza1 from "../../assets/imgPizza1.png";
 import imgPicada from "../../assets/imgPicada.png";
+import imgComidaTradicional from "../../assets/imgComidaTradicional.png";
+
 
 export default function Categorias() {
   return (
@@ -124,8 +126,8 @@ export default function Categorias() {
                 rel="noopener noreferrer"
               >
                 <CardImg
-                  alt="imgComidaMexicana"
-                  src={imgComidaMexicana}
+                  alt="imgComidaTradicional"
+                  src={imgComidaTradicional}
                   width="auto"
                   className="rounded-5 p-2"
                 />
