@@ -12,28 +12,40 @@ import {
   CardImg,
 } from "reactstrap";
 
+import imgCarnePlancha from "../../assets/LaPerradaDeYei/imgCarnePlancha.png"
+import imgHamburguesaDobleEspecial from "../../assets/LaPerradaDeYei/imgHamburguesaDobleEspecial.png"
+import imgHamburguesaDoblePapasGaseosa from "../../assets/LaPerradaDeYei/imgHamburguesaDoblePapasGaseosa.png"
+import imgHamburguesaEspecial from "../../assets/LaPerradaDeYei/imgHamburguesaEspecial.png"
+import imgHamburguesaPatac from "../../assets/LaPerradaDeYei/imgHamburguesaPatac.png"
+import imgHamburguesaPatacon from "../../assets/LaPerradaDeYei/imgHamburguesaPatacon.png"
+import imgHamburguesaRanchera from "../../assets/LaPerradaDeYei/imgHamburguesaRanchera.png"
+import imgMazorcada from "../../assets/LaPerradaDeYei/imgMazorcada.png"
+import imgPatacon from "../../assets/LaPerradaDeYei/imgPatacon.png"
+import imgPerroSencilloEspecial from "../../assets/LaPerradaDeYei/imgPerroSencilloEspecial.png"
+import imgPicadaEspecial from "../../assets/LaPerradaDeYei/imgPicadaEspecial.png"
+import imgPicadaMediana from "../../assets/LaPerradaDeYei/imgPicadaMediana.png"
+import imgPicadaPesonal from "../../assets/LaPerradaDeYei/imgPicadaPesonal.png"
+import imgSalchipapaAmericano from "../../assets/LaPerradaDeYei/imgSalchipapaAmericano.png"
+
+
+
+
+
+
 import imgHamburguesa from "../../assets/imgHamburguesa.png";
-import imgHamburguesa2 from "../../assets/imgHamburguesa2.png";
 import imgHamburguesa3 from "../../assets/imgHamburguesa3.png";
 import imgHotDog from "../../assets/imgHotDog.png";
 import imgHotDog2 from "../../assets/imgHotDog2.png";
-import imgPicada1 from "../../assets/imgPicada1.png";
-import imgCarnePlancha from "../../assets/imgCarnePlancha.png";
 import imgCarneEncebollada from "../../assets/imgCarneEncebollada.png";
 import imgSalchipapa1 from "../../assets/imgSalchipapa1.png";
-import imgSalchipapa2 from "../../assets/imgSalchipapa2.png";
 import imgSalchipapa3 from "../../assets/imgSalchipapa3.png";
 import imgSalchipapa4 from "../../assets/imgSalchipapa4.png";
 import imgSalchipollo from "../../assets/imgSalchipollo.png";
 import imgSandwich from "../../assets/imgSandwich.png";
-import imgMazorcada1 from "../../assets/imgMazorcada1.png";
 import imgPechugaPlancha from "../../assets/imgPechugaPlancha.png";
 import imgHamburguesaPollo1 from "../../assets/imgHamburguesaPollo1.png";
 import imgHamburguesaPollo2 from "../../assets/imgHamburguesaPollo2.png";
 import imgPicada2 from "../../assets/imgPicada2.png";
-import imgPicada3 from "../../assets/imgPicada3.png";
-import imgPatacon1 from "../../assets/imgPatacon1.png";
-import imgPatacon2 from "../../assets/imgPatacon2.png";
 import imgSopa1 from "../../assets/imgSopa1.png";
 import imgSandwich1 from "../../assets/imgSandwich1.png";
 import imgSandwichPollo1 from "../../assets/imgSandwichPollo1.png";
@@ -75,7 +87,7 @@ export default function LaPerradaDeYei() {
           </a>
           o escribenos al
           <a
-            href="https://wa.link/olzdv2"
+            href="https://wa.link/i3njpb"
             target="_blank"
             rel="noopener noreferrer"
             className="text-success"
@@ -102,7 +114,7 @@ export default function LaPerradaDeYei() {
           }}
         >
           <a
-            href="https://wa.link/olzdv2"
+            href="https://wa.link/i3njpb"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white"
@@ -164,8 +176,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="Card cap"
-                      src={imgHamburguesa2}
+                      alt="imgHamburguesaEspecial"
+                      src={imgHamburguesaEspecial}
                       width="auto"
                       height="auto"
                       className="rounded-5 p-2"
@@ -235,8 +247,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa"
-                      src={imgHamburguesa}
+                      alt="imgHamburguesaDobleEspecial"
+                      src={imgHamburguesaDobleEspecial}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -374,8 +386,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa3"
-                      src={imgHamburguesa3}
+                      alt="imgHamburguesaRanchera"
+                      src={imgHamburguesaRanchera}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -444,8 +456,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPatacon2"
-                      src={imgPatacon2}
+                      alt="imgHamburguesaPatac"
+                      src={imgHamburguesaPatac}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -514,8 +526,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHotDog2"
-                      src={imgHotDog2}
+                      alt="imgPerroSencilloEspecial"
+                      src={imgPerroSencilloEspecial}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -830,8 +842,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPicada1"
-                      src={imgPicada1}
+                      alt="imgPicadaPesonal"
+                      src={imgPicadaPesonal}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -866,8 +878,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPicada3"
-                      src={imgPicada3}
+                      alt="imgPicadaMediana"
+                      src={imgPicadaMediana}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -902,8 +914,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPicada1"
-                      src={imgPicada1}
+                      alt="imgPicadaEspecial"
+                      src={imgPicadaEspecial}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -975,8 +987,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipapa2"
-                      src={imgSalchipapa2}
+                      alt="imgSalchipapaAmericano"
+                      src={imgSalchipapaAmericano}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1115,8 +1127,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgPatacon1"
-                      src={imgPatacon1}
+                      alt="imgPatacon"
+                      src={imgPatacon}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1150,8 +1162,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgMazorcada1"
-                      src={imgMazorcada1}
+                      alt="imgMazorcada"
+                      src={imgMazorcada}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1322,75 +1334,7 @@ export default function LaPerradaDeYei() {
             </Col>
 
 
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgMazorcada1"
-                      src={imgMazorcada1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Mazorcada
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $18.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-
-            <Col className="py-3">
-              <Card>
-                <Row>
-                  <Col md="6">
-                    <CardImg
-                      alt="imgMazorcada1"
-                      src={imgMazorcada1}
-                      width="auto"
-                      className="rounded-5 p-2"
-                    />
-                  </Col>
-
-                  <Col md="6">
-                    <CardBody>
-                      <CardTitle tag="h5" className="text-start fw-bold py-2">
-                        Mazorcada
-                      </CardTitle>
-                      <CardSubtitle
-                        className="mb-1 text-muted fw-bold"
-                        tag="h6"
-                      >
-                        Carne, lechuga, tomate, queso, salsas
-                      </CardSubtitle>
-                      <CardText className="text-end text-danger fw-bold">
-                        {" "}
-                        <strong> $18.500 </strong>
-                      </CardText>
-
-                      <div className="text-center"></div>
-                    </CardBody>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
+            
 
 
           </Row>
@@ -1726,8 +1670,8 @@ export default function LaPerradaDeYei() {
           <div className="ratio ratio-21x9 ">
             <iframe
               className="rounded-3"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d275.77946446624827!2d-72.40646979254676!3d5.335859216787204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6b0dca93add7cb%3A0x46dfbc4a24770cfe!2sYopal%2C%20Casanare!5e1!3m2!1ses!2sco!4v1722934445055!5m2!1ses!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d993.1322254067773!2d-72.40713117218571!3d5.335906629025571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6b0dc91ed7b7cf%3A0x620235eb068a9f46!2sCra.%208b%20%2318-2%20a%2018-92%2C%20Yopal%2C%20Casanare!5e0!3m2!1ses!2sco!4v1722934723278!5m2!1ses!2scohttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.2860114223361!2d-72.40713117218571!3d5.335906629025571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6b0dc91ed7b7cf%3A0x620235eb068a9f46!2sCra.%208b%20%2318-2%20a%2018-92%2C%20Yopal%2C%20Casanare!5e1!3m2!1ses!2sco!4v1722934829469!5m2!1ses!2sco"
-              title="Restaurante El Buen Gusto"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d332.7688695367406!2d-72.39450466980288!3d5.340470146948573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6b0d2d9a97f325%3A0x93c538891bc29c28!2sLA%20PERR%C3%81DA%20DE%20YEI!5e1!3m2!1ses-419!2sco!4v1726801656851!5m2!1ses-419!2sco"
+              title="Restaurante La Perrada De Yei"
               allowfullscreen
             ></iframe>
           </div>
@@ -1739,7 +1683,7 @@ export default function LaPerradaDeYei() {
           <div className="text-center">
             <Button color="primary" style={{ margin: 10 }}>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/people/La-Perrada-De-Yei/100089809486641/?sk=reels_tab"
                 target="_blank"
                 rel="noreferrer"
                 className="text-white"
