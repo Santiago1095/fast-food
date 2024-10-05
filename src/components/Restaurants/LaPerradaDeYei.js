@@ -23,9 +23,18 @@ import imgMazorcada from "../../assets/LaPerradaDeYei/imgMazorcada.png"
 import imgPatacon from "../../assets/LaPerradaDeYei/imgPatacon.png"
 import imgPerroSencilloEspecial from "../../assets/LaPerradaDeYei/imgPerroSencilloEspecial.png"
 import imgPicadaEspecial from "../../assets/LaPerradaDeYei/imgPicadaEspecial.png"
-import imgPicadaMediana from "../../assets/LaPerradaDeYei/imgPicadaMediana.png"
+import imgPicadaMediana from "../../assets/LaPerradaDeYei/imgPicadaMedi.png"
 import imgPicadaPesonal from "../../assets/LaPerradaDeYei/imgPicadaPesonal.png"
 import imgSalchipapaAmericano from "../../assets/LaPerradaDeYei/imgSalchipapaAmericano.png"
+
+import imgHamburguesaMexicana from "../../assets/LaPerradaDeYei/imgHamburguesaMexicana.png"
+import imgSalchipapaCasa from "../../assets/LaPerradaDeYei/imgSalchipapaCasa.png"
+import imgSalchipapaMixto from "../../assets/LaPerradaDeYei/imgSalchipapaMixto.png"
+import imgSalchipapaTradiconal from "../../assets/LaPerradaDeYei/imgSalchipapaTradiconal.png"
+import imgPerroSencillo from "../../assets/LaPerradaDeYei/imgPerroSencillo.png"
+
+
+
 
 
 
@@ -421,8 +430,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHamburguesa"
-                      src={imgHamburguesa}
+                      alt="imgHamburguesaMexicana"
+                      src={imgHamburguesaMexicana}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -491,8 +500,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgHotDog"
-                      src={imgHotDog}
+                      alt="imgPerroSencillo"
+                      src={imgPerroSencillo}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -950,8 +959,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipapa1"
-                      src={imgSalchipapa1}
+                      alt="imgSalchipapaTradiconal"
+                      src={imgSalchipapaTradiconal}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1022,8 +1031,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipapa3"
-                      src={imgSalchipapa3}
+                      alt="imgSalchipapaCasa"
+                      src={imgSalchipapaCasa}
                       width="auto"
                       className="rounded-5 p-2"
                     />
@@ -1092,8 +1101,8 @@ export default function LaPerradaDeYei() {
                 <Row>
                   <Col md="6">
                     <CardImg
-                      alt="imgSalchipapa4"
-                      src={imgSalchipapa4}
+                      alt="imgSalchipapaMixto"
+                      src={imgSalchipapaMixto}
                       width="auto"
                       className="rounded-5 p-2"
                     />
